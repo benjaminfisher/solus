@@ -66,3 +66,25 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 3, ../sass/_global.scss */
+body {
+  height: 100%;
+  width: 100%;
+  background: white;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, white 21%, #bad196 67%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(21%, white), color-stop(67%, #bad196));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 21%, #bad196 67%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, white 21%, #bad196 67%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, white 21%, #bad196 67%);
+  /* IE10+ */
+  background: linear-gradient(top, #ffffff 21%, #bad196 67%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#bad196',GradientType=0 );
+  /* IE6-9 */
+}
