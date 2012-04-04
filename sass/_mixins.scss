@@ -1,3 +1,5 @@
+@import "variables";
+
 @mixin bg_gradient{
   background: rgb(255,255,255); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(255,255,255,1) 21%, rgba(186,209,150,1) 67%); /* FF3.6+ */
@@ -7,4 +9,9 @@
   background: -ms-linear-gradient(top,  rgba(255,255,255,1) 21%,rgba(186,209,150,1) 67%); /* IE10+ */
   background: linear-gradient(top,  rgba(255,255,255,1) 21%,rgba(186,209,150,1) 67%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#bad196',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin body_center{
+  margin: 0 auto;
+  width: $content_width;
 }

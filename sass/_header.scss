@@ -1,15 +1,19 @@
 @import "global";
 
 header{
+  @include body_center;
+  
+  border-bottom: 2px solid $light_grey;
   height:120px;
-  margin:0 auto;
-  width:$content_width;
+  padding:0 15px;
+  
   h1{
     background: transparent url(images/solus_logo.jpg) 0 0 no-repeat;
     color:rgba(0,0,0,0);
     height:67px;
     float:left;
     line-height:0px;
+    top: 30px;
     width:200px;
   }
   
@@ -17,7 +21,8 @@ header{
     bottom:-75px;
     height:inherit;
     position:absolute;
-    right:40px;
+    right:70px;
+    
     ul{
       height:inherit;
       li{
@@ -25,6 +30,15 @@ header{
         font-family: arial, sans-serif;
         padding-left:50px;
         text-transform:uppercase;
+        
+        &.current a{ color:$solus_green; }
+        
+        a{
+          color: #333;
+          text-decoration:none;
+          
+          &:hover, &:active{ color: $solus_green; }
+        }
       }
     }
   } // End nav styles

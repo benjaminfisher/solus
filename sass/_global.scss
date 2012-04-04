@@ -1,9 +1,4 @@
-@import "compass/reset", "mixins";
-
-// Start Global Variables
-$content_width:960px;
-
-// End Global Variables
+@import "compass/reset", "mixins", "variables";
 
 *{
   position:relative;
@@ -14,6 +9,11 @@ body{
   width:100%;
  
  div.content{
+   @include body_center;
+   
+   background:$light_grey;
+   border-top: 2px solid #FFF;
    clear:both;
+   padding:30px 0 0 30px;
  } 
 }
