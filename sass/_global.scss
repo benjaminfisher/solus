@@ -1,8 +1,19 @@
-@import "mixins";
+@import "compass/reset", "mixins";
 
+// Start Global Variables
+$content_width:960px;
+
+// End Global Variables
+
+*{
+  position:relative;
+}
 body{
+  background: transparent url(images/background.jpg) 0 0 repeat-x;
   height:100%;
   width:100%;
-  
-  @include bg_gradient;
+ 
+ div.content{
+   clear:both;
+ } 
 }

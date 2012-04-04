@@ -1,0 +1,31 @@
+@import "global";
+
+header{
+  height:120px;
+  margin:0 auto;
+  width:$content_width;
+  h1{
+    background: transparent url(images/solus_logo.jpg) 0 0 no-repeat;
+    color:rgba(0,0,0,0);
+    height:67px;
+    float:left;
+    line-height:0px;
+    width:200px;
+  }
+  
+  nav{
+    bottom:-75px;
+    height:inherit;
+    position:absolute;
+    right:40px;
+    ul{
+      height:inherit;
+      li{
+        float:left;
+        font-family: arial, sans-serif;
+        padding-left:50px;
+        text-transform:uppercase;
+      }
+    }
+  } // End nav styles
+} // End header sytles
