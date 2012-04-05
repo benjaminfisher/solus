@@ -132,25 +132,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/_global.scss */
+@font-face {
+  font-family: "Meta-Pro";
+  src: url('/stylesheets/fonts/fonts/MetaPro-Normal.otf') format('"fonts/MetaPro-Book.otf"');
+}
+
+/* line 5, ../sass/_global.scss */
 * {
   position: relative;
 }
 
-/* line 6, ../sass/_global.scss */
+/* line 8, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
   height: 100%;
   width: 100%;
 }
-/* line 11, ../sass/_global.scss */
+/* line 13, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -o-border-bottom-left-radius: 3px;
+  -ms-border-bottom-left-radius: 3px;
+  -khtml-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -o-border-bottom-right-radius: 3px;
+  -ms-border-bottom-right-radius: 3px;
+  -khtml-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
   background: #f4f4f4;
-  border-top: 2px solid #FFF;
+  border-top: 3px solid #FFF;
   clear: both;
-  padding: 30px 0 0 30px;
+  padding: 30px 0 15px 30px;
 }
 
 /* line 17, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
@@ -218,25 +235,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 3, ../sass/_global.scss */
+@font-face {
+  font-family: "Meta-Pro";
+  src: url('/stylesheets/fonts/fonts/MetaPro-Normal.otf') format('"fonts/MetaPro-Book.otf"');
+}
+
+/* line 5, ../sass/_global.scss */
 * {
   position: relative;
 }
 
-/* line 6, ../sass/_global.scss */
+/* line 8, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
   height: 100%;
   width: 100%;
 }
-/* line 11, ../sass/_global.scss */
+/* line 13, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  -o-border-bottom-left-radius: 3px;
+  -ms-border-bottom-left-radius: 3px;
+  -khtml-border-bottom-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomright: 3px;
+  -webkit-border-bottom-right-radius: 3px;
+  -o-border-bottom-right-radius: 3px;
+  -ms-border-bottom-right-radius: 3px;
+  -khtml-border-bottom-right-radius: 3px;
+  border-bottom-right-radius: 3px;
   background: #f4f4f4;
-  border-top: 2px solid #FFF;
+  border-top: 3px solid #FFF;
   clear: both;
-  padding: 30px 0 0 30px;
+  padding: 30px 0 15px 30px;
 }
 
 /* line 3, ../sass/_header.scss */
@@ -253,25 +287,25 @@ header h1 {
   color: rgba(0, 0, 0, 0);
   height: 67px;
   float: left;
+  left: 15px;
   line-height: 0px;
   top: 30px;
   width: 200px;
 }
-/* line 20, ../sass/_header.scss */
+/* line 21, ../sass/_header.scss */
 header nav {
   bottom: -75px;
   height: inherit;
   position: absolute;
-  right: 70px;
+  right: 40px;
 }
-/* line 26, ../sass/_header.scss */
+/* line 27, ../sass/_header.scss */
 header nav ul {
   height: inherit;
 }
-/* line 28, ../sass/_header.scss */
+/* line 29, ../sass/_header.scss */
 header nav ul li {
   float: left;
-  font-family: arial, sans-serif;
   padding-left: 50px;
   text-transform: uppercase;
 }
@@ -282,9 +316,10 @@ header nav ul li.current a {
 /* line 36, ../sass/_header.scss */
 header nav ul li a {
   color: #333;
+  font-family: MetaPro, arial, sans-serif;
   text-decoration: none;
 }
-/* line 40, ../sass/_header.scss */
+/* line 41, ../sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
 }
@@ -293,4 +328,32 @@ header nav ul li a:hover, header nav ul li a:active {
 footer {
   margin: 0 auto;
   width: 960px;
+}
+
+/* line 10, ../sass/screen.scss */
+.home div.content div {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background: white;
+  border: 1px solid #e6e6e6;
+  height: 145px;
+  margin-top: 15px;
+  padding: 15px 0 0 15px;
+  width: 900px;
+}
+/* line 20, ../sass/screen.scss */
+.home div.content div section.feature {
+  border-right: 1px solid #bababa;
+  float: left;
+  padding-right: 15px;
+  width: 660px;
+}
+/* line 26, ../sass/screen.scss */
+.home div.content div section.feature img {
+  float: left;
+  margin-right: 15px;
 }

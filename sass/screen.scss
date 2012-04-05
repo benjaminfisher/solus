@@ -4,3 +4,30 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset", "compass/css3", "global", "header", "footer";
+
+// Home page styles
+.home div.content {
+  div{
+    @include border-radius(3px);
+    
+    background: white;
+    border: 1px solid #e6e6e6;
+    height:145px;
+    margin-top:15px;
+    padding:15px 0 0 15px;
+    width:900px;
+    
+    section.feature{
+      border-right: 1px solid #bababa;
+      float:left;
+      padding-right:15px;
+      width: 660px;
+      
+      img{
+        float:left;
+        margin-right:15px;
+      }
+    } // End feature section styles
+  }
+}
+// End home page styles

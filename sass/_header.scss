@@ -12,6 +12,7 @@ header{
     color:rgba(0,0,0,0);
     height:67px;
     float:left;
+    left:15px;
     line-height:0px;
     top: 30px;
     width:200px;
@@ -21,13 +22,12 @@ header{
     bottom:-75px;
     height:inherit;
     position:absolute;
-    right:70px;
+    right:40px;
     
     ul{
       height:inherit;
       li{
         float:left;
-        font-family: arial, sans-serif;
         padding-left:50px;
         text-transform:uppercase;
         
@@ -35,6 +35,7 @@ header{
         
         a{
           color: #333;
+          font-family: MetaPro, arial, sans-serif;
           text-decoration:none;
           
           &:hover, &:active{ color: $solus_green; }
