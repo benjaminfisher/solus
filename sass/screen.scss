@@ -5,29 +5,119 @@
 
 @import "compass/reset", "compass/css3", "global", "header", "footer";
 
-// Home page styles
-.home div.content {
-  div{
+div.content {
+  img.hero { margin: 0 auto; }
+  
+  div.copy{
     @include border-radius(3px);
     
     background: white;
-    border: 1px solid #e6e6e6;
-    height:145px;
-    margin-top:15px;
-    padding:15px 0 0 15px;
-    width:900px;
+    border: 1px solid $medium_grey;
+    float:left;
+    min-height:125px;
+    padding:15px;
+    max-width:918px;
     
-    section.feature{
-      border-right: 1px solid #bababa;
-      float:left;
-      padding-right:15px;
-      width: 660px;
+    section{
       
-      img{
+      &.feature{
+        border-right: 1px solid #bababa;
         float:left;
         margin-right:15px;
-      }
-    } // End feature section styles
+        padding-right:15px;
+        width: 660px;
+        
+        h2:after{ content: ':'; }
+      
+        img{
+            float:left;
+            margin-right:15px;
+        }
+      
+      } // End feature section styles
+      
+    } // End home page section styles
   }
 }
-// End home page styles
+
+.home div.content div.copy {
+  margin-top:15px;
+  width: 888px;
+}
+
+.about{
+  div.content {
+    overflow:auto;
+    padding-top:60px;
+
+      div.copy{
+        padding:20px;
+        height:530px;
+        margin-bottom:30px;
+        width:559px;
+        
+        h2 { line-height:2.5em; }
+    }
+  }// End content div styles
+} // End About page specific styles
+
+.line-card{
+  section.main{
+    width: 650px;
+    
+    div.head{
+      width: 500px;
+      button{ margin:0px }
+      h2 { float:left; }
+      
+      a.pdf { float:right; }
+    } // End head div styles
+    
+    nav{
+      ul li{
+        float:left;
+        width:150px;
+        
+        a{
+          background: transparent url(images/icon_sprite.jpg) 0 0 no-repeat;
+          background-size: 16px;
+        }
+      }
+    }
+    
+    div{
+      clear:both;
+      
+      ul.alpha-list {
+        color:$dark_grey;
+        clear:both;
+        border-bottom: 1px solid $solus_green;
+        float:left;
+        height:1.5em;
+        
+        li{
+          border-right:2px solid $dark_grey;
+          float:left;
+          padding-left:8px;
+          width:15px;
+          
+          &:first-of-type{ padding-left:0px; }
+          &:last-of-type { border-right:0px; }
+          
+          a{
+            color: inherit;
+            
+            &:hover{
+              text-decoration: underline;
+              color: $solus_green;
+            }
+          }
+        }
+      }
+      
+      ul.products{
+        clear:both;
+      }
+    }
+  } // End line card content div styles
+}// End Line Card page specific sytles

@@ -1,5 +1,39 @@
 @import "variables";
 
+@font-face{
+  font-family:Meta-Pro;
+  src: url(fonts/MetaPro-Normal.ttf) format(truetype), url(fonts/MetaPro-Normal.otf) format(opentype);
+  font-style:normal;
+}
+
+@font-face{
+  font-family:Meta-Pro;
+  src: url(fonts/MetaPro-NormalItalic.otf) format(opentype);
+  font-style:italic;
+  font-weight:normal;
+}
+
+@font-face{
+  font-family:Meta-Pro;
+  src: url(fonts/MetaPro-Bold.otf) format(opentype);
+  font-style:normal;
+  font-weight:bold;
+}
+
+@font-face{
+  font-family:Meta-Pro;
+  src: url(fonts/MetaPro-Medium.otf) format(opentype);
+  font-style:normal;
+  font-weight:bolder;
+}
+
+@font-face{
+  font-family:Meta-Pro;
+  src: url(fonts/MetaPro-Black.otf) format(opentype);
+  font-style:normal;
+  font-weight:400;
+}
+
 @mixin bg_gradient{
   background: rgb(255,255,255); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(255,255,255,1) 21%, rgba(186,209,150,1) 67%); /* FF3.6+ */

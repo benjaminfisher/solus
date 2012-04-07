@@ -2,6 +2,7 @@
 
 header{
   @include body_center;
+  @include box-shadow(#AAA 0 2px 15px);
   
   border-bottom: 2px solid $light_grey;
   height:120px;
@@ -36,6 +37,8 @@ header{
         a{
           color: #333;
           font-family: MetaPro, arial, sans-serif;
+          font-size:0.785714286em;
+          font-weight:bold;
           text-decoration:none;
           
           &:hover, &:active{ color: $solus_green; }

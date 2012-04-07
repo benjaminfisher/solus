@@ -3,4 +3,6 @@
 footer{
   @include body_center;
   
+  clear:both;
+  text-align:right;
 }
