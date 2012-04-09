@@ -27,12 +27,26 @@ header{
     
     ul{
       height:inherit;
+      position:relative;
       li{
         float:left;
         padding-left:50px;
         text-transform:uppercase;
         
+        &:hover ul.sub { display:block; }
         &.current a{ color:$solus_green; }
+        
+        ul.sub{
+          position:absolute;
+          display:none;
+          width:100px;
+          z-index:100;
+          li{
+            float:none;
+            padding-left:0px;
+            padding-top:1em;
+          }
+        }
         
         a{
           color: #333;

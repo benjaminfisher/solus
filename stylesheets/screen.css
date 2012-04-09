@@ -454,18 +454,36 @@ header nav {
 /* line 28, ../sass/_header.scss */
 header nav ul {
   height: inherit;
+  position: relative;
 }
-/* line 30, ../sass/_header.scss */
+/* line 31, ../sass/_header.scss */
 header nav ul li {
   float: left;
   padding-left: 50px;
   text-transform: uppercase;
 }
-/* line 35, ../sass/_header.scss */
+/* line 36, ../sass/_header.scss */
+header nav ul li:hover ul.sub {
+  display: block;
+}
+/* line 37, ../sass/_header.scss */
 header nav ul li.current a {
   color: #709d26;
 }
-/* line 37, ../sass/_header.scss */
+/* line 39, ../sass/_header.scss */
+header nav ul li ul.sub {
+  position: absolute;
+  display: none;
+  width: 100px;
+  z-index: 100;
+}
+/* line 44, ../sass/_header.scss */
+header nav ul li ul.sub li {
+  float: none;
+  padding-left: 0px;
+  padding-top: 1em;
+}
+/* line 51, ../sass/_header.scss */
 header nav ul li a {
   color: #333;
   font-family: MetaPro, arial, sans-serif;
@@ -473,7 +491,7 @@ header nav ul li a {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 44, ../sass/_header.scss */
+/* line 58, ../sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
 }
@@ -491,7 +509,7 @@ div.content img.hero {
   margin: 0 auto;
 }
 /* line 11, ../sass/screen.scss */
-div.content div.copy {
+div.content div.copy, div.content article.copy {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
@@ -506,7 +524,7 @@ div.content div.copy {
   max-width: 918px;
 }
 /* line 23, ../sass/screen.scss */
-div.content div.copy section.feature {
+div.content div.copy section.feature, div.content article.copy section.feature {
   border-right: 1px solid #bababa;
   float: left;
   margin-right: 15px;
@@ -514,11 +532,11 @@ div.content div.copy section.feature {
   width: 660px;
 }
 /* line 30, ../sass/screen.scss */
-div.content div.copy section.feature h2:after {
+div.content div.copy section.feature h2:after, div.content article.copy section.feature h2:after {
   content: ':';
 }
 /* line 32, ../sass/screen.scss */
-div.content div.copy section.feature img {
+div.content div.copy section.feature img, div.content article.copy section.feature img {
   float: left;
   margin-right: 15px;
 }

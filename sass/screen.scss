@@ -8,7 +8,7 @@
 div.content {
   img.hero { margin: 0 auto; }
   
-  div.copy{
+  div.copy, article.copy{
     @include border-radius(3px);
     
     background: white;
