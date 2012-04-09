@@ -46,19 +46,55 @@ div.content {
 }
 
 .about{
+  aside{
+    margin-top:30px;
+  }
   div.content {
     overflow:auto;
-    padding-top:60px;
+    
+      &>h2 { font-weight:100; }
+      &>p { margin-right:7em; margin-bottom:1.5em; }
+      
+      article.copy{
+        margin-right:35px;
+        margin-bottom:24px;
+        img{ float:left; margin-right:1em; }
+        
+        h2, h3 { line-height:1.5em; }
+        h3 { font-weight:bold; }
+        
+        p.bio{ color: #666; margin: 2em 0; }
+      }
 
       div.copy{
         padding:20px;
         height:530px;
+        margin-top:30px;
         margin-bottom:30px;
         width:559px;
         
         h2 { line-height:2.5em; }
     }
   }// End content div styles
+  
+  div.gallery{
+    float:left;
+    width:inherit;
+    ul{
+      li{
+        float:left;
+        margin-right:2em;
+      }
+    }
+    
+    footer.credits {
+      position:absolute;
+      top:0;
+      right:35px;
+      width:25%;
+    }
+    
+  } // End about gallery styles
 } // End About page specific styles
 
 .line-card{

@@ -136,6 +136,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: Meta-Pro;
   src: url(fonts/MetaPro-Normal.ttf) format(truetype), url(fonts/MetaPro-Normal.otf) format(opentype);
   font-style: normal;
+  font-weight: 100;
 }
 
 @font-face {
@@ -178,6 +179,16 @@ h2 {
 }
 
 /* line 10, ../sass/_global.scss */
+em {
+  font-style: italic;
+}
+
+/* line 11, ../sass/_global.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 13, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
   font-family: "Meta-Pro", arial, sans-serif;
@@ -186,37 +197,37 @@ body {
   height: 100%;
   width: 100%;
 }
-/* line 18, ../sass/_global.scss */
+/* line 21, ../sass/_global.scss */
 body a {
   color: #709d26;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 23, ../sass/_global.scss */
+/* line 26, ../sass/_global.scss */
 body a:hover {
   text-decoration: underline;
 }
-/* line 28, ../sass/_global.scss */
+/* line 31, ../sass/_global.scss */
 body p {
   line-height: 1.3em;
   font-weight: 100;
 }
-/* line 32, ../sass/_global.scss */
+/* line 35, ../sass/_global.scss */
 body p a {
   font-weight: 100;
 }
-/* line 35, ../sass/_global.scss */
+/* line 38, ../sass/_global.scss */
 body .upper {
   text-transform: uppercase;
 }
-/* line 37, ../sass/_global.scss */
+/* line 40, ../sass/_global.scss */
 body aside {
   border-left: 2px solid #e6e6e6;
   float: right;
   margin-right: 30px;
   padding-left: 26px;
 }
-/* line 44, ../sass/_global.scss */
+/* line 47, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
@@ -313,6 +324,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: Meta-Pro;
   src: url(fonts/MetaPro-Normal.ttf) format(truetype), url(fonts/MetaPro-Normal.otf) format(opentype);
   font-style: normal;
+  font-weight: 100;
 }
 
 @font-face {
@@ -355,6 +367,16 @@ h2 {
 }
 
 /* line 10, ../sass/_global.scss */
+em {
+  font-style: italic;
+}
+
+/* line 11, ../sass/_global.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 13, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
   font-family: "Meta-Pro", arial, sans-serif;
@@ -363,37 +385,37 @@ body {
   height: 100%;
   width: 100%;
 }
-/* line 18, ../sass/_global.scss */
+/* line 21, ../sass/_global.scss */
 body a {
   color: #709d26;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 23, ../sass/_global.scss */
+/* line 26, ../sass/_global.scss */
 body a:hover {
   text-decoration: underline;
 }
-/* line 28, ../sass/_global.scss */
+/* line 31, ../sass/_global.scss */
 body p {
   line-height: 1.3em;
   font-weight: 100;
 }
-/* line 32, ../sass/_global.scss */
+/* line 35, ../sass/_global.scss */
 body p a {
   font-weight: 100;
 }
-/* line 35, ../sass/_global.scss */
+/* line 38, ../sass/_global.scss */
 body .upper {
   text-transform: uppercase;
 }
-/* line 37, ../sass/_global.scss */
+/* line 40, ../sass/_global.scss */
 body aside {
   border-left: 2px solid #e6e6e6;
   float: right;
   margin-right: 30px;
   padding-left: 26px;
 }
-/* line 44, ../sass/_global.scss */
+/* line 47, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
@@ -548,57 +570,110 @@ div.content div.copy section.feature img, div.content article.copy section.featu
 }
 
 /* line 49, ../sass/screen.scss */
+.about aside {
+  margin-top: 30px;
+}
+/* line 52, ../sass/screen.scss */
 .about div.content {
   overflow: auto;
-  padding-top: 60px;
 }
-/* line 53, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
+.about div.content > h2 {
+  font-weight: 100;
+}
+/* line 56, ../sass/screen.scss */
+.about div.content > p {
+  margin-right: 7em;
+  margin-bottom: 1.5em;
+}
+/* line 58, ../sass/screen.scss */
+.about div.content article.copy {
+  margin-right: 35px;
+  margin-bottom: 24px;
+}
+/* line 61, ../sass/screen.scss */
+.about div.content article.copy img {
+  float: left;
+  margin-right: 1em;
+}
+/* line 63, ../sass/screen.scss */
+.about div.content article.copy h2, .about div.content article.copy h3 {
+  line-height: 1.5em;
+}
+/* line 64, ../sass/screen.scss */
+.about div.content article.copy h3 {
+  font-weight: bold;
+}
+/* line 66, ../sass/screen.scss */
+.about div.content article.copy p.bio {
+  color: #666;
+  margin: 2em 0;
+}
+/* line 69, ../sass/screen.scss */
 .about div.content div.copy {
   padding: 20px;
   height: 530px;
+  margin-top: 30px;
   margin-bottom: 30px;
   width: 559px;
 }
-/* line 59, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .about div.content div.copy h2 {
   line-height: 2.5em;
 }
+/* line 80, ../sass/screen.scss */
+.about div.gallery {
+  float: left;
+  width: inherit;
+}
+/* line 84, ../sass/screen.scss */
+.about div.gallery ul li {
+  float: left;
+  margin-right: 2em;
+}
+/* line 90, ../sass/screen.scss */
+.about div.gallery footer.credits {
+  position: absolute;
+  top: 0;
+  right: 35px;
+  width: 25%;
+}
 
-/* line 65, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .line-card section.main {
   width: 650px;
 }
-/* line 68, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .line-card section.main div.head {
   width: 500px;
 }
-/* line 70, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .line-card section.main div.head button {
   margin: 0px;
 }
-/* line 71, ../sass/screen.scss */
+/* line 107, ../sass/screen.scss */
 .line-card section.main div.head h2 {
   float: left;
 }
-/* line 73, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .line-card section.main div.head a.pdf {
   float: right;
 }
-/* line 77, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .line-card section.main nav ul li {
   float: left;
   width: 150px;
 }
-/* line 81, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .line-card section.main nav ul li a {
   background: transparent url(images/icon_sprite.jpg) 0 0 no-repeat;
   background-size: 16px;
 }
-/* line 88, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .line-card section.main div {
   clear: both;
 }
-/* line 91, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list {
   color: #9e9fa0;
   clear: both;
@@ -606,31 +681,31 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   float: left;
   height: 1.5em;
 }
-/* line 98, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li {
   border-right: 2px solid #9e9fa0;
   float: left;
   padding-left: 8px;
   width: 15px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li:first-of-type {
   padding-left: 0px;
 }
-/* line 105, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li:last-of-type {
   border-right: 0px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li a {
   color: inherit;
 }
-/* line 110, ../sass/screen.scss */
+/* line 146, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li a:hover {
   text-decoration: underline;
   color: #709d26;
 }
-/* line 118, ../sass/screen.scss */
+/* line 154, ../sass/screen.scss */
 .line-card section.main div ul.products {
   clear: both;
 }
