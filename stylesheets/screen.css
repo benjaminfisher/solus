@@ -221,7 +221,7 @@ body .upper {
   text-transform: uppercase;
 }
 /* line 40, ../sass/_global.scss */
-body aside {
+body aside.sidebar {
   border-left: 2px solid #e6e6e6;
   float: right;
   margin-right: 30px;
@@ -409,7 +409,7 @@ body .upper {
   text-transform: uppercase;
 }
 /* line 40, ../sass/_global.scss */
-body aside {
+body aside.sidebar {
   border-left: 2px solid #e6e6e6;
   float: right;
   margin-right: 30px;
@@ -631,7 +631,15 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   float: left;
   margin-right: 2em;
 }
-/* line 90, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
+.about div.gallery ul li a {
+  color: #000;
+}
+/* line 89, ../sass/screen.scss */
+.about div.gallery ul li a:hover figcaption {
+  color: #709d26;
+}
+/* line 93, ../sass/screen.scss */
 .about div.gallery footer.credits {
   position: absolute;
   top: 0;
@@ -639,24 +647,46 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   width: 25%;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
+.line-card aside.sidebar {
+  height: 550px;
+  width: 240px;
+}
+/* line 110, ../sass/screen.scss */
+.line-card aside.sidebar article.details h3 {
+  color: rgba(0, 0, 0, 0);
+  line-height: 0px;
+}
+/* line 114, ../sass/screen.scss */
+.line-card aside.sidebar article.details h3 img.logo {
+  border: 1px solid #709d26;
+  height: 65px;
+  margin: 0 auto;
+  width: 230px;
+}
+/* line 122, ../sass/screen.scss */
+.line-card aside.sidebar article.details img {
+  width: 230px;
+}
+/* line 126, ../sass/screen.scss */
 .line-card section.main {
+  float: left;
   width: 650px;
 }
-/* line 104, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 .line-card section.main div.head {
   width: 600px;
 }
-/* line 107, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .line-card section.main div.head h2 {
   float: left;
   margin-right: 1em;
 }
-/* line 108, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .line-card section.main div.head form {
   float: left;
 }
-/* line 110, ../sass/screen.scss */
+/* line 136, ../sass/screen.scss */
 .line-card section.main div.head form button {
   background: transparent url(images/search.png) 0 0 no-repeat;
   border: 0px;
@@ -665,14 +695,14 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: -1px;
   width: 20px;
 }
-/* line 119, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .line-card section.main div.head form input {
   border: 1px solid black;
   height: 18px;
   margin: 1px 0 0 -3px;
   padding: 0px;
 }
-/* line 127, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .line-card section.main div.head a.pdf {
   color: #333;
   float: right;
@@ -680,16 +710,16 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   height: 22px;
   bottom: 5px;
 }
-/* line 134, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .line-card section.main div.head a.pdf:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 138, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .line-card section.main div.head a.pdf:hover span.icon {
   background-position-x: -22px;
 }
-/* line 141, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .line-card section.main div.head a.pdf span.icon {
   background: transparent url(images/pdf.png) 0 0 no-repeat;
   display: inline-block;
@@ -697,103 +727,103 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 6px;
   width: 21px;
 }
-/* line 151, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .line-card section.main nav {
   float: left;
   margin-bottom: 1em;
 }
-/* line 158, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .line-card section.main nav ul li {
   float: left;
   margin-top: 0.25em;
   width: 150px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(1) a span.icon {
   background-position: 0px 0px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(2) a span.icon {
   background-position: 0px -16px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(3) a span.icon {
   background-position: 0px -32px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(4) a span.icon {
   background-position: 0px -48px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(5) a span.icon {
   background-position: 0px -64px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(6) a span.icon {
   background-position: 0px -80px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(7) a span.icon {
   background-position: 0px -96px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(8) a span.icon {
   background-position: 0px -112px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(9) a span.icon {
   background-position: 0px -128px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(10) a span.icon {
   background-position: 0px -144px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(11) a span.icon {
   background-position: 0px -160px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(12) a span.icon {
   background-position: 0px -176px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(13) a span.icon {
   background-position: 0px -192px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(14) a span.icon {
   background-position: 0px -208px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(15) a span.icon {
   background-position: 0px -224px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(16) a span.icon {
   background-position: 0px -240px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(17) a span.icon {
   background-position: 0px -256px;
 }
-/* line 164, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .line-card section.main nav ul li:nth-of-type(18) a span.icon {
   background-position: 0px -272px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 .line-card section.main nav ul li a {
   color: #333;
 }
-/* line 172, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card section.main nav ul li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 175, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 .line-card section.main nav ul li a:hover span.icon {
   background-position-x: -16px;
 }
-/* line 180, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card section.main nav ul li a span.icon {
   background-image: url(images/icon_sprite.jpg);
   display: inline-block;
@@ -802,11 +832,11 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 3px;
   width: 16px;
 }
-/* line 192, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .line-card section.main div {
   clear: both;
 }
-/* line 195, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list {
   color: #9e9fa0;
   clear: both;
@@ -814,7 +844,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   float: left;
   height: 1em;
 }
-/* line 202, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li {
   border-right: 2px solid #9e9fa0;
   float: left;
@@ -823,27 +853,27 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-left: 8px;
   width: 15px;
 }
-/* line 210, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li:first-of-type {
   padding-left: 0px;
 }
-/* line 211, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li:last-of-type {
   border-right: 0px;
 }
-/* line 213, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li a {
   color: inherit;
   display: inline-block;
   font-size: 0.75em;
   width: 2em;
 }
-/* line 219, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .line-card section.main div ul.alpha-list li a:hover {
   text-decoration: none;
   color: #709d26;
 }
-/* line 227, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .line-card section.main div ul.products {
   clear: both;
 }

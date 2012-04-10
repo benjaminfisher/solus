@@ -84,6 +84,9 @@ div.content {
       li{
         float:left;
         margin-right:2em;
+        
+        a { color: #000; }
+        a:hover figcaption { color: $solus_green; }
       }
     }
     
@@ -97,8 +100,31 @@ div.content {
   } // End about gallery styles
 } // End About page specific styles
 
+//*** Start unique styles for Line Card Page ***//
 .line-card{
+  aside.sidebar {
+    height:550px;
+    width:240px;
+    
+    article.details{
+      h3{
+        color: rgba(0,0,0,0);
+        line-height:0px;
+        
+        img.logo{
+          border: 1px solid $solus_green;
+          height:65px;
+          margin:0 auto;
+          width:230px;
+        }
+       
+      }
+      img{ width: 230px; }
+    }// End details article in sidebar
+  }// End sidebar styles
+  
   section.main{
+    float:left;
     width: 650px;
     
     div.head{
@@ -146,7 +172,7 @@ div.content {
           width:21px;
         }
       }
-    } // End head div styles
+    } // End line-card head div styles
     
     nav{
       $item_count:18;
@@ -222,7 +248,8 @@ div.content {
             }
           }
         }
-      }
+      } // End Line Card alpha list styles
+      
       
       ul.products{
         clear:both;
