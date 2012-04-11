@@ -4,5 +4,9 @@ footer{
   @include body_center;
   
   clear:both;
-  text-align:right;
+  left:315px;
+  width:360px;
+  
+  p{ float:left; }
+  a{ top: 3px; margin-left:0.5em; }
 }

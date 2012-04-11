@@ -45,15 +45,21 @@ div.content {
   width: 888px;
 }
 
+//*** Start unique styles for About Page ***//
 .about{
-  aside{
-    margin-top:30px;
-  }
+
   div.content {
     overflow:auto;
     
+      p { line-height:1.5em; }
       &>h2 { font-weight:100; }
       &>p { margin-right:7em; margin-bottom:1.5em; }
+      
+      aside.sidebar{
+        margin-top:30px;
+        margin-left: 20px;
+        width: 275px;
+      }
       
       article.copy{
         margin-right:35px;
@@ -70,8 +76,7 @@ div.content {
         padding:20px;
         height:530px;
         margin-top:30px;
-        margin-bottom:30px;
-        width:559px;
+        width:560px;
         
         h2 { line-height:2.5em; }
     }
@@ -91,9 +96,11 @@ div.content {
     }
     
     footer.credits {
+      margin-right: 38px;
       position:absolute;
+      right:0px;
+      text-align:right;
       top:0;
-      right:35px;
       width:25%;
     }
     
@@ -102,9 +109,9 @@ div.content {
 
 //*** Start unique styles for Line Card Page ***//
 .line-card{
-  aside.sidebar {
-    height:550px;
-    width:240px;
+  
+  div.content{
+    padding-bottom: 2em;
     
     article.details{
       h3{
@@ -114,148 +121,264 @@ div.content {
         img.logo{
           border: 1px solid $solus_green;
           height:65px;
-          margin:0 auto;
+          margin:0px auto 2em;
           width:230px;
         }
        
       }
-      img{ width: 230px; }
+      img{ margin: 1em 0px; width: 232px; }
+      
+      p{ line-height:1.5em };
+      
     }// End details article in sidebar
-  }// End sidebar styles
   
-  section.main{
-    float:left;
-    width: 650px;
-    
-    div.head{
-      width: 600px;
-
-      h2 { float:left; margin-right:1em; }
-      form{
-        float:left;
-        button{
-          background: transparent url(images/search.png) 0 0 no-repeat;
-          border:0px;
-          height:20px;
-          margin:0px;
-          top:-1px;
-          width:20px;
-        }
-        
-        input{
-          border: 1px solid black;
-          height:18px;
-          margin: 1px 0 0 -3px;
-          padding:0px;
-        }
-      }
-      
-      a.pdf {
-        color:#333;
-        float:right;
-        font-size:0.857142857em;
-        height:22px;
-        bottom:5px;
-        
-        &:hover {
-          color:$solus_green;
-          text-decoration:none;
-          
-          span.icon { background-position-x: -22px; }
-        }
-        
-        span.icon{
-          background: transparent url(images/pdf.png) 0 0 no-repeat;
-          display:inline-block;
-          height:21px;
-          top:6px;
-          width:21px;
-        }
-      }
-    } // End line-card head div styles
-    
-    nav{
-      $item_count:18;
-      $item_size:16px;
-      
+    section.main{
       float:left;
-      margin-bottom:1em;
+      width: 650px;
       
-      ul li{
-        float:left;
-        margin-top:0.25em;
-        width:150px;
+      div.head{
+        margin-bottom:2em;
+        width: 600px;
+  
+        h2 { float:left; margin-right:1em; }
+        form{
+          float:left;
+          button{
+            background: transparent url(images/search.png) 0 0 no-repeat;
+            border:0px;
+            height:20px;
+            margin:0px;
+            top:-1px;
+            width:20px;
+          }
+          
+          input{
+            border: 1px solid black;
+            height:18px;
+            margin: 1px 0 0 -3px;
+            padding:0px;
+            width:18em;
+          }
+        }
         
-         @for $i from 1 through $item_count {
-            &:nth-of-type(#{$i}) a span.icon{
-              background-position: 0px ($item_size * -($i - 1));
-            }
-          } // End for loop
-        
-        a{
-          color: #333;
-
+        a.pdf {
+          color:#333;
+          float:right;
+          font-size:0.857142857em;
+          height:22px;
+          left:40px;
+          bottom:5px;
+          
           &:hover {
             color:$solus_green;
             text-decoration:none;
-            span.icon{
-              background-position-x: -$item_size;
-            }
+            
+            span.icon { background-position-x: -22px; }
           }
           
           span.icon{
-            background-image: url(images/icon_sprite.jpg);
+            background: transparent url(images/pdf.png) 0 0 no-repeat;
             display:inline-block;
-            height: $item_size;
-            margin-right:0.5em;
-            top:3px;
-            width:$item_size;
+            height:21px;
+            top:6px;
+            width:21px;
           }
         }
-      } // End nav list item styles
-    } // End secondary nav styles for line-card
-    
-    div{
-      clear:both;
+      } // End line-card head div styles
       
-      ul.alpha-list {
-        color:$dark_grey;
-        clear:both;
-        border-bottom: 1px solid $solus_green;
-        float:left;
-        height:1em;
+      nav{
+        $item_count:18;
+        $item_size:16px;
         
-        li{
-          border-right:2px solid $dark_grey;
+        float:left;
+        margin-bottom:1em;
+        
+        ul li{
           float:left;
-          height: 0.75em;
-          line-height:0.5em;
-          padding-left:8px;
-          width:15px;
+          margin-top:0.25em;
+          width:150px;
           
-          &:first-of-type{ padding-left:0px; }
-          &:last-of-type { border-right:0px; }
+           @for $i from 1 through $item_count {
+              &:nth-of-type(#{$i}) a span.icon{
+                background-position: 0px ($item_size * -($i - 1));
+              }
+            } // End for loop
           
           a{
-            color: inherit;
-            display: inline-block;
-            font-size:0.75em;
-            width: 2em;
-            
-            &:hover{
+            color: #333;
+  
+            &:hover {
+              color:$solus_green;
               text-decoration:none;
-              color: $solus_green;
+              span.icon{
+                background-position-x: -$item_size;
+              }
+            }
+            
+            span.icon{
+              background-image: url(images/icon_sprite.jpg);
+              display:inline-block;
+              height: $item_size;
+              margin-right:0.5em;
+              top:3px;
+              width:$item_size;
             }
           }
-        }
-      } // End Line Card alpha list styles
+        } // End nav list item styles
+      } // End secondary nav styles for line-card
       
-      
-      ul.products{
+      div{
         clear:both;
+        
+        ul.alpha-list {
+          color:$dark_grey;
+          clear:both;
+          border-bottom: 1px solid $solus_green;
+          float:left;
+          height:1em;
+          padding: 0.5em 0em;
+          margin-bottom:1em;
+          
+          li{
+            border-right:2px solid $dark_grey;
+            float:left;
+            height: 0.75em;
+            line-height:0.5em;
+            padding-left:8px;
+            width:15px;
+            
+            &:first-of-type{ padding-left:0px; }
+            &:last-of-type { border-right:0px; }
+            
+            a{
+              color: inherit;
+              display: inline-block;
+              font-size:0.75em;
+              width: 2em;
+              
+              &:hover{
+                text-decoration:none;
+                color: $solus_green;
+              }
+            }
+          }
+        } // End Line Card alpha list styles
+        
+        ul.products{
+          border-bottom:1px solid $solus_green;
+          clear:both;
+          margin-top:1em;
+          padding-bottom:1em;
+          width:540px;
+          
+          @include column-count(2);
+          @include column-gap(6em);
+          @include column-width(50%);
+          
+          li{
+            list-style-position: inside;
+            list-style-type: disc;
+            margin-bottom:0.5em;
+            
+            a{
+              color:#333132;
+              text-decoration:none;
+              
+              &:hover{
+                color:$solus_green;
+              }
+            }
+          }
+        } // End products ul styles
+        
+        ul.page{
+          bottom:0px;
+          position:absolute;
+          right:0px;
+          
+          li{
+            display:inline-block;
+            float:left;
+            padding:0 0.25em;
+            
+            &:first-of-type:after{ color:$solus_green; content:" |"; }
+            &:first-of-type:before{ color:$solus_green; content:"<<"; }
+            &:last-of-type:after{ color:$solus_green; content:" >>"; }
+            &:last-of-type:before{ color:$solus_green; content:" "; }
+            
+          }
+        } // End page ul styles
       }
-    }
+    }// End main section styles
+    
+    div.shadow{ right: 296px; }
+          
   } // End line card content div styles
-}// End Line Card page specific sytles
+} // End Line Card page specific sytles
 
-
+//*** Start unique styles for Sample Library Page ***//
+.samplelibrary{
+  div.copy{
+    width: 600px;
+    
+    h2 { margin-bottom: 1em; margin-top:0.5em; }
+    
+    p {
+      border-bottom:1px solid $medium_grey;
+      margin-bottom:1.5em;
+      padding-bottom:1.5em;
+    }
+    
+    ul.clients{
+      @include column-count(3);
+      margin-left:2em;
+      margin-bottom:1.5em;
+      
+      li{
+        line-height:1.5em;
+        
+        a{
+          color:#666;
+          
+          &:hover{ color: $solus_green; text-decoration:none; }
+        }
+      }
+    } // End Clints list specific styles    
+  } // End Copy Div styles
+  
+  div.content div.shadow{ height:510px; right: 296px; }
+  
+  aside.sidebar{
+    height: 450px;
+    
+    form{
+      label{
+        display: block;
+        font-weight:bold;
+        
+        &:after{ content: ":"; }
+      }
+      
+      input{
+        display: block;
+        height:2em;
+        margin-bottom:1.5em;
+        width:100%;
+      }
+      
+      button{
+        @include border-radius(3px);
+        border: 0px;
+        background-color:#d6d6d6;
+        font-weight:bold;
+        padding: 0.25em 1em;
+        
+        &:hover{
+          background-color:$solus_green;
+          cursor:pointer;
+        }
+      }
+    } // End form styles in sidebar
+  } // End sidebar styles for Sample Library page
+    
+} // End Sample Library page specific styles
