@@ -51,12 +51,10 @@ div.content {
   div.content {
     overflow:auto;
     
-      p { line-height:1.5em; }
       &>h2 { font-weight:100; }
       &>p { margin-right:7em; margin-bottom:1.5em; }
       
       aside.sidebar{
-        margin-top:30px;
         margin-left: 20px;
         width: 275px;
       }
@@ -75,7 +73,7 @@ div.content {
       div.copy{
         padding:20px;
         height:530px;
-        margin-top:30px;
+        min-height:585px;
         width:560px;
         
         h2 { line-height:2.5em; }
@@ -127,8 +125,6 @@ div.content {
        
       }
       img{ margin: 1em 0px; width: 232px; }
-      
-      p{ line-height:1.5em };
       
     }// End details article in sidebar
   
@@ -318,7 +314,8 @@ div.content {
 
 //*** Start unique styles for Sample Library Page ***//
 .samplelibrary{
-  div.copy{
+  div.content div.copy{
+    min-height:590px;
     width: 600px;
     
     h2 { margin-bottom: 1em; margin-top:0.5em; }
@@ -334,9 +331,7 @@ div.content {
       margin-left:2em;
       margin-bottom:1.5em;
       
-      li{
-        line-height:1.5em;
-        
+      li{        
         a{
           color:#666;
           

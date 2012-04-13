@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 17, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -89,45 +89,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -195,21 +195,21 @@ body {
   font-size: 14px;
   font-weight: 100;
   height: 100%;
+  line-height: 1.8em;
   width: 100%;
 }
-/* line 21, ../sass/_global.scss */
+/* line 22, ../sass/_global.scss */
 body a {
   color: #709d26;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 26, ../sass/_global.scss */
+/* line 27, ../sass/_global.scss */
 body a:hover {
   text-decoration: underline;
 }
-/* line 31, ../sass/_global.scss */
+/* line 32, ../sass/_global.scss */
 body p {
-  line-height: 1.3em;
   font-weight: 100;
 }
 /* line 35, ../sass/_global.scss */
@@ -226,10 +226,11 @@ body aside.sidebar {
   float: right;
   height: 500px;
   margin-right: 30px;
+  min-height: 585px;
   padding-left: 26px;
   width: 240px;
 }
-/* line 49, ../sass/_global.scss */
+/* line 50, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
@@ -252,11 +253,12 @@ body div.content {
   background: #f4f4f4;
   border-top: 3px solid #FFF;
   clear: both;
+  margin-bottom: 1em;
+  min-height: 630px;
   overflow: auto;
   padding: 30px 0 30px 30px;
-  margin-bottom: 1em;
 }
-/* line 62, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 body div.shadow {
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzg3ODc4NyIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -280,7 +282,7 @@ body div.shadow {
   right: 331px;
 }
 
-/* line 17, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -302,45 +304,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -408,21 +410,21 @@ body {
   font-size: 14px;
   font-weight: 100;
   height: 100%;
+  line-height: 1.8em;
   width: 100%;
 }
-/* line 21, ../sass/_global.scss */
+/* line 22, ../sass/_global.scss */
 body a {
   color: #709d26;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 26, ../sass/_global.scss */
+/* line 27, ../sass/_global.scss */
 body a:hover {
   text-decoration: underline;
 }
-/* line 31, ../sass/_global.scss */
+/* line 32, ../sass/_global.scss */
 body p {
-  line-height: 1.3em;
   font-weight: 100;
 }
 /* line 35, ../sass/_global.scss */
@@ -439,10 +441,11 @@ body aside.sidebar {
   float: right;
   height: 500px;
   margin-right: 30px;
+  min-height: 585px;
   padding-left: 26px;
   width: 240px;
 }
-/* line 49, ../sass/_global.scss */
+/* line 50, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
@@ -465,11 +468,12 @@ body div.content {
   background: #f4f4f4;
   border-top: 3px solid #FFF;
   clear: both;
+  margin-bottom: 1em;
+  min-height: 630px;
   overflow: auto;
   padding: 30px 0 30px 30px;
-  margin-bottom: 1em;
 }
-/* line 62, ../sass/_global.scss */
+/* line 64, ../sass/_global.scss */
 body div.shadow {
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzg3ODc4NyIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -539,23 +543,40 @@ header nav ul li:hover ul.sub {
   display: block;
 }
 /* line 37, ../sass/_header.scss */
-header nav ul li.current a {
+header nav ul li.current > a {
   color: #709d26;
 }
 /* line 39, ../sass/_header.scss */
 header nav ul li ul.sub {
+  -moz-box-shadow: grey 2px 2px 5px;
+  -webkit-box-shadow: grey 2px 2px 5px;
+  -o-box-shadow: grey 2px 2px 5px;
+  box-shadow: grey 2px 2px 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background: white;
+  padding: 0 1em 1em;
   position: absolute;
   display: none;
   width: 100px;
   z-index: 100;
 }
-/* line 44, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 header nav ul li ul.sub li {
+  border-bottom: 1px solid #709d26;
   float: none;
-  padding-left: 0px;
-  padding-top: 1em;
+  padding: 0.5em 0;
 }
-/* line 51, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
+header nav ul li ul.sub li:last-of-type {
+  border-bottom: 0px;
+  padding-bottom: 0;
+}
+/* line 58, ../sass/_header.scss */
 header nav ul li a {
   color: #333;
   font-family: MetaPro, arial, sans-serif;
@@ -563,9 +584,10 @@ header nav ul li a {
   font-weight: bold;
   text-decoration: none;
 }
-/* line 58, ../sass/_header.scss */
+/* line 65, ../sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
+  text-decoration: none;
 }
 
 /* line 3, ../sass/_footer.scss */
@@ -574,13 +596,14 @@ footer {
   width: 960px;
   clear: both;
   left: 315px;
+  margin-bottom: 2em;
   width: 360px;
 }
-/* line 10, ../sass/_footer.scss */
+/* line 11, ../sass/_footer.scss */
 footer p {
   float: left;
 }
-/* line 11, ../sass/_footer.scss */
+/* line 12, ../sass/_footer.scss */
 footer a {
   top: 3px;
   margin-left: 0.5em;
@@ -634,77 +657,72 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   overflow: auto;
 }
 /* line 54, ../sass/screen.scss */
-.about div.content p {
-  line-height: 1.5em;
-}
-/* line 55, ../sass/screen.scss */
 .about div.content > h2 {
   font-weight: 100;
 }
-/* line 56, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 .about div.content > p {
   margin-right: 7em;
   margin-bottom: 1.5em;
 }
-/* line 58, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .about div.content aside.sidebar {
-  margin-top: 30px;
   margin-left: 20px;
   width: 275px;
 }
-/* line 64, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .about div.content article.copy {
   margin-right: 35px;
   margin-bottom: 24px;
 }
-/* line 67, ../sass/screen.scss */
+/* line 65, ../sass/screen.scss */
 .about div.content article.copy img {
   float: left;
   margin-right: 1em;
 }
-/* line 69, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .about div.content article.copy h2, .about div.content article.copy h3 {
   line-height: 1.5em;
 }
-/* line 70, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .about div.content article.copy h3 {
   font-weight: bold;
 }
-/* line 72, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .about div.content article.copy p.bio {
   color: #666;
   margin: 2em 0;
 }
-/* line 75, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .about div.content div.copy {
   padding: 20px;
   height: 530px;
-  margin-top: 30px;
+  min-height: 585px;
   width: 560px;
 }
-/* line 81, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .about div.content div.copy h2 {
   line-height: 2.5em;
 }
-/* line 85, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .about div.gallery {
   float: left;
   width: inherit;
 }
-/* line 89, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .about div.gallery ul li {
   float: left;
   margin-right: 2em;
 }
-/* line 93, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .about div.gallery ul li a {
   color: #000;
 }
-/* line 94, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .about div.gallery ul li a:hover figcaption {
   color: #709d26;
 }
-/* line 98, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .about div.gallery footer.credits {
   margin-right: 38px;
   position: absolute;
@@ -714,51 +732,47 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   width: 25%;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .line-card div.content {
   padding-bottom: 2em;
 }
-/* line 117, ../sass/screen.scss */
+/* line 115, ../sass/screen.scss */
 .line-card div.content article.details h3 {
   color: rgba(0, 0, 0, 0);
   line-height: 0px;
 }
-/* line 121, ../sass/screen.scss */
+/* line 119, ../sass/screen.scss */
 .line-card div.content article.details h3 img.logo {
   border: 1px solid #709d26;
   height: 65px;
   margin: 0px auto 2em;
   width: 230px;
 }
-/* line 129, ../sass/screen.scss */
+/* line 127, ../sass/screen.scss */
 .line-card div.content article.details img {
   margin: 1em 0px;
   width: 232px;
 }
 /* line 131, ../sass/screen.scss */
-.line-card div.content article.details p {
-  line-height: 1.5em;
-}
-/* line 135, ../sass/screen.scss */
 .line-card div.content section.main {
   float: left;
   width: 650px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .line-card div.content section.main div.head {
   margin-bottom: 2em;
   width: 600px;
 }
-/* line 143, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .line-card div.content section.main div.head h2 {
   float: left;
   margin-right: 1em;
 }
-/* line 144, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .line-card div.content section.main div.head form {
   float: left;
 }
-/* line 146, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .line-card div.content section.main div.head form button {
   background: transparent url(images/search.png) 0 0 no-repeat;
   border: 0px;
@@ -767,7 +781,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: -1px;
   width: 20px;
 }
-/* line 155, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .line-card div.content section.main div.head form input {
   border: 1px solid black;
   height: 18px;
@@ -775,7 +789,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0px;
   width: 18em;
 }
-/* line 164, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf {
   color: #333;
   float: right;
@@ -784,16 +798,16 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   left: 40px;
   bottom: 5px;
 }
-/* line 172, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 176, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover span.icon {
   background-position-x: -22px;
 }
-/* line 179, ../sass/screen.scss */
+/* line 175, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf span.icon {
   background: transparent url(images/pdf.png) 0 0 no-repeat;
   display: inline-block;
@@ -801,103 +815,103 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 6px;
   width: 21px;
 }
-/* line 189, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 .line-card div.content section.main nav {
   float: left;
   margin-bottom: 1em;
 }
-/* line 196, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .line-card div.content section.main nav ul li {
   float: left;
   margin-top: 0.25em;
   width: 150px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(1) a span.icon {
   background-position: 0px 0px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(2) a span.icon {
   background-position: 0px -16px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(3) a span.icon {
   background-position: 0px -32px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(4) a span.icon {
   background-position: 0px -48px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(5) a span.icon {
   background-position: 0px -64px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(6) a span.icon {
   background-position: 0px -80px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(7) a span.icon {
   background-position: 0px -96px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(8) a span.icon {
   background-position: 0px -112px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(9) a span.icon {
   background-position: 0px -128px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(10) a span.icon {
   background-position: 0px -144px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(11) a span.icon {
   background-position: 0px -160px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(12) a span.icon {
   background-position: 0px -176px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(13) a span.icon {
   background-position: 0px -192px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(14) a span.icon {
   background-position: 0px -208px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(15) a span.icon {
   background-position: 0px -224px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(16) a span.icon {
   background-position: 0px -240px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(17) a span.icon {
   background-position: 0px -256px;
 }
-/* line 202, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(18) a span.icon {
   background-position: 0px -272px;
 }
-/* line 207, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a {
   color: #333;
 }
-/* line 210, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 213, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover span.icon {
   background-position-x: -16px;
 }
-/* line 218, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a span.icon {
   background-image: url(images/icon_sprite.jpg);
   display: inline-block;
@@ -906,11 +920,11 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 3px;
   width: 16px;
 }
-/* line 230, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .line-card div.content section.main div {
   clear: both;
 }
-/* line 233, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list {
   color: #9e9fa0;
   clear: both;
@@ -920,7 +934,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0.5em 0em;
   margin-bottom: 1em;
 }
-/* line 242, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li {
   border-right: 2px solid #9e9fa0;
   float: left;
@@ -929,27 +943,27 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-left: 8px;
   width: 15px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li:first-of-type {
   padding-left: 0px;
 }
-/* line 251, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li:last-of-type {
   border-right: 0px;
 }
-/* line 253, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li a {
   color: inherit;
   display: inline-block;
   font-size: 0.75em;
   width: 2em;
 }
-/* line 259, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li a:hover {
   text-decoration: none;
   color: #709d26;
 }
-/* line 267, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .line-card div.content section.main div ul.products {
   border-bottom: 1px solid #709d26;
   clear: both;
@@ -969,75 +983,76 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   -o-column-width: 50%;
   column-width: 50%;
 }
-/* line 278, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li {
   list-style-position: inside;
   list-style-type: disc;
   margin-bottom: 0.5em;
 }
-/* line 283, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li a {
   color: #333132;
   text-decoration: none;
 }
-/* line 287, ../sass/screen.scss */
+/* line 283, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li a:hover {
   color: #709d26;
 }
-/* line 294, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .line-card div.content section.main div ul.page {
   bottom: 0px;
   position: absolute;
   right: 0px;
 }
-/* line 299, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li {
   display: inline-block;
   float: left;
   padding: 0 0.25em;
 }
-/* line 304, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:first-of-type:after {
   color: #709d26;
   content: " |";
 }
-/* line 305, ../sass/screen.scss */
+/* line 301, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:first-of-type:before {
   color: #709d26;
   content: "<<";
 }
-/* line 306, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:last-of-type:after {
   color: #709d26;
   content: " >>";
 }
-/* line 307, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:last-of-type:before {
   color: #709d26;
   content: " ";
 }
-/* line 314, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .line-card div.content div.shadow {
   right: 296px;
 }
 
-/* line 321, ../sass/screen.scss */
-.samplelibrary div.copy {
+/* line 317, ../sass/screen.scss */
+.samplelibrary div.content div.copy {
+  min-height: 590px;
   width: 600px;
 }
-/* line 324, ../sass/screen.scss */
-.samplelibrary div.copy h2 {
+/* line 321, ../sass/screen.scss */
+.samplelibrary div.content div.copy h2 {
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
-/* line 326, ../sass/screen.scss */
-.samplelibrary div.copy p {
+/* line 323, ../sass/screen.scss */
+.samplelibrary div.content div.copy p {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
 }
-/* line 332, ../sass/screen.scss */
-.samplelibrary div.copy ul.clients {
+/* line 329, ../sass/screen.scss */
+.samplelibrary div.content div.copy ul.clients {
   -moz-column-count: 3;
   -webkit-column-count: 3;
   -o-column-count: 3;
@@ -1045,45 +1060,41 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   margin-left: 2em;
   margin-bottom: 1.5em;
 }
-/* line 337, ../sass/screen.scss */
-.samplelibrary div.copy ul.clients li {
-  line-height: 1.5em;
-}
-/* line 340, ../sass/screen.scss */
-.samplelibrary div.copy ul.clients li a {
+/* line 335, ../sass/screen.scss */
+.samplelibrary div.content div.copy ul.clients li a {
   color: #666;
 }
-/* line 343, ../sass/screen.scss */
-.samplelibrary div.copy ul.clients li a:hover {
+/* line 338, ../sass/screen.scss */
+.samplelibrary div.content div.copy ul.clients li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 349, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 .samplelibrary div.content div.shadow {
   height: 510px;
   right: 296px;
 }
-/* line 351, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .samplelibrary aside.sidebar {
   height: 450px;
 }
-/* line 355, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 .samplelibrary aside.sidebar form label {
   display: block;
   font-weight: bold;
 }
-/* line 359, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .samplelibrary aside.sidebar form label:after {
   content: ":";
 }
-/* line 362, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 .samplelibrary aside.sidebar form input {
   display: block;
   height: 2em;
   margin-bottom: 1.5em;
   width: 100%;
 }
-/* line 369, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 .samplelibrary aside.sidebar form button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -1096,7 +1107,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   font-weight: bold;
   padding: 0.25em 1em;
 }
-/* line 376, ../sass/screen.scss */
+/* line 371, ../sass/screen.scss */
 .samplelibrary aside.sidebar form button:hover {
   background-color: #709d26;
   cursor: pointer;

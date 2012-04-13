@@ -34,17 +34,24 @@ header{
         text-transform:uppercase;
         
         &:hover ul.sub { display:block; }
-        &.current a{ color:$solus_green; }
+        &.current > a{ color:$solus_green; }
         
         ul.sub{
+          @include box-shadow(grey 2px 2px 5px);
+          @include border-radius(3px);
+          background:white;
+          padding:0 1em 1em;
           position:absolute;
           display:none;
           width:100px;
           z-index:100;
+          
           li{
+            border-bottom: 1px solid $solus_green;
             float:none;
-            padding-left:0px;
-            padding-top:1em;
+            padding: 0.5em 0;
+            
+            &:last-of-type{ border-bottom: 0px; padding-bottom:0; }
           }
         }
         
@@ -55,7 +62,7 @@ header{
           font-weight:bold;
           text-decoration:none;
           
-          &:hover, &:active{ color: $solus_green; }
+          &:hover, &:active{ color: $solus_green; text-decoration:none; }
         }
       }
     }
