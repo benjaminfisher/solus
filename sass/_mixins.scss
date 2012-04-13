@@ -6,6 +6,8 @@
   src: url(fonts/MetaPro-Normal.otf) format(opentype),
     url(fonts/MetaPro-Normal.ttf) format(truetype),
     url(fonts/metapronormal.svg) format(svg);
+  font-style:normal;
+  font-weight:normal;
 }
 
 @font-face{
@@ -45,7 +47,7 @@
     url(fonts/MetaPro_Black.ttf) format(truetype),
     url(fonts/metapro-black.svg) format(svg);
   font-style:normal;
-  font-weight:400;
+  font-weight:900;
 }
 
 @mixin bg_gradient{

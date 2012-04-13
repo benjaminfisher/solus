@@ -1,30 +1,5 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>Solus - About</title>
-	
-	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" />
-</head>
-<body class="about">
-	<header>
-		<a href="index.html"><h1>Solus</h1></a>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li class="current"><a href="about.html">About</a>
-					<ul class="sub">
-						<li><a href="people.html">People</a></li>
-						<li><a href="#">Green Initiative</a></li>
-						<li><a href="#">Territory</a></li>
-					</ul>
-				</li>
-				<li><a href="linecard.html">Line Card</a></li>
-				<li><a href="samplelibrary.html">Sample Library</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="content">
+<?php include "_header.php" ?>
+
 		<h2>Outside Sales / Inside Sales</h2>
 		<p>The Solus outside sales team has over 80 years of combined lighting &amp; electrical experience, and is dedicated to educating and adding value to our customers. We do this through product training, literature updates, offering design assistance, and providing exceptional customer service every day.</p>
 		
@@ -34,7 +9,7 @@
 			<h3>Principal/Outside Sales</h3>
 			<p class="bio">As a Principal of Solus, Gary is responsible for design build projects and contractor/distributor sales. Gary has been in the lighting industry since 1971 as both a lighting distributor and manufacturer’s representative. His experience includes management, project quotations, outside sales, and design-build assistance.</p>
 			<ul>
-				<li><strong>Email: </strong> <a <a href="mailto:gborelli@solusinc.org?subject=from Website">gborrelli@solusinc.org</a> </li>
+				<li><strong>Email: </strong><a href="mailto:gborelli@solusinc.org?subject=from Website">gborrelli@solusinc.org</a></li>
 				<li><strong>Tel: </strong><a href="tel">503-753-0492</a></li>
 			</ul>
 		</article>
@@ -86,11 +61,4 @@
 		</div>
 	</div><!--End Content Div -->
 	
-	<footer>
-		<p class="copy">Copyright &copy; Solus Inc, 2010</p>
-		<a class="credit_link" title="Media Drink" href="http://mediadrink.com">
-        	<img alt="site design by media drink" src="http://media.mediadrink.com/media_drink_wave_dark_brown.png" />
-      	</a>
-	</footer>	
-</body>
-</html>
+<?php include "_footer.php" ?>

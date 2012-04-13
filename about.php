@@ -1,30 +1,5 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>Solus - About</title>
-	
-	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" />
-</head>
-<body class="about">
-	<header>
-		<a href="index.html"><h1>Solus</h1></a>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li class="current"><a href="about.html">About</a>
-					<ul class="sub">
-						<li><a href="people.html">People</a></li>
-						<li><a href="#">Green Initiative</a></li>
-						<li><a href="#">Territory</a></li>
-					</ul>
-				</li>
-				<li><a href="linecard.html">Line Card</a></li>
-				<li><a href="samplelibrary.html">Sample Library</a></li>
-			</ul>
-		</nav>
-	</header>
-	<div class="content">
+<?php include "_header.php" ?>
+
 		<aside class="sidebar"><img src="assets/windmill.jpg" alt="Wind power" /></aside>
 		<div class="copy">
 			<h2 class="upper">Green Initiative</h2>
@@ -33,11 +8,4 @@
 		<div class="shadow"></div>
 	</div><!--End Content Div -->
 	
-	<footer>
-		<p class="copy">Copyright &copy; Solus Inc, 2010</p>
-		<a class="credit_link" title="Media Drink" href="http://mediadrink.com">
-        	<img alt="site design by media drink" src="http://media.mediadrink.com/media_drink_wave_dark_brown.png" />
-      	</a>
-	</footer>	
-</body>
-</html>
+<?php include "_footer.php" ?>

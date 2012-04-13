@@ -15,10 +15,12 @@ div.content {
     border: 1px solid $medium_grey;
     float:left;
     min-height:125px;
+    line-height:1.5em;
     padding:15px;
     max-width:918px;
     
     section{
+      &.contact{ float:left; }
       
       &.feature{
         border-right: 1px solid #bababa;

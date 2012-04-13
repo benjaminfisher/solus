@@ -1,32 +1,5 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title>Solus - Line Card</title>
-	
-	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" />
-</head>
+<?php include "_header.php" ?>
 
-<body class="line-card">
-	<header>
-		<a href="index.html"><h1>Solus</h1></a>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a>
-					<ul class="sub">
-						<li><a href="people.html">People</a></li>
-						<li><a href="#">Green Initiative</a></li>
-						<li><a href="#">Territory</a></li>
-					</ul>
-				</li>
-				<li class="current"><a href="linecard.html">Line Card</a></li>
-				<li><a href="samplelibrary.html">Sample Library</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<div class="content">
 		<aside class="sidebar">
 			<article class="details">
 				<h3><img src="assets/logos/spi_lighting.jpg" alt="Client Logo" class="logo" />SPI Lighting</h3>
@@ -138,13 +111,5 @@
 			</div><!--End Alpha-list Div -->
 		</section>
 		<div class="shadow"></div>
-	</div><!--End Content Div -->
-	
-	<footer>
-		<p class="copy">Copyright &copy; Solus Inc, 2010</p>
-		<a class="credit_link" title="Media Drink" href="http://mediadrink.com">
-        	<img alt="site design by media drink" src="http://media.mediadrink.com/media_drink_wave_dark_brown.png" />
-      	</a>
-	</footer>
-</body>
-</html>
+
+<?php include "_footer.php" ?>

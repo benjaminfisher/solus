@@ -71,6 +71,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-family: Meta-Pro;
   src: url(fonts/MetaPro-Normal.eot);
   src: url(fonts/MetaPro-Normal.otf) format(opentype), url(fonts/MetaPro-Normal.ttf) format(truetype), url(fonts/metapronormal.svg) format(svg);
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
@@ -102,7 +104,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   src: url(fonts/MetaPro_Black.eot);
   src: url(fonts/MetaPro-Black.otf) format(opentype), url(fonts/MetaPro_Black.ttf) format(truetype), url(fonts/metapro-black.svg) format(svg);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 /* line 3, ../sass/_global.scss */
@@ -113,7 +115,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 7, ../sass/_global.scss */
 h2 {
   font-size: 1.71428571em;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 /* line 9, ../sass/_global.scss */
@@ -129,35 +131,36 @@ strong {
 /* line 12, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
-  font-family: Meta-Pro, arial, sans-serif;
+  font-family: Meta-Pro, "ff-meta-web-pro", arial, sans-serif;
+  font-weight: normal;
   font-size: 14px;
   height: 100%;
   line-height: 1.8em;
   width: 100%;
 }
-/* line 20, ../sass/_global.scss */
+/* line 21, ../sass/_global.scss */
 body a {
   color: #709d26;
   font-weight: bold;
   text-decoration: none;
 }
-/* line 25, ../sass/_global.scss */
+/* line 26, ../sass/_global.scss */
 body a:hover {
   text-decoration: underline;
 }
-/* line 30, ../sass/_global.scss */
+/* line 31, ../sass/_global.scss */
 body p {
-  font-weight: 100;
+  font-weight: normal;
 }
-/* line 33, ../sass/_global.scss */
+/* line 34, ../sass/_global.scss */
 body p a {
   font-weight: 100;
 }
-/* line 36, ../sass/_global.scss */
+/* line 37, ../sass/_global.scss */
 body .upper {
   text-transform: uppercase;
 }
-/* line 38, ../sass/_global.scss */
+/* line 39, ../sass/_global.scss */
 body aside.sidebar {
   border-left: 1px solid #e6e6e6;
   float: right;
@@ -167,7 +170,7 @@ body aside.sidebar {
   padding-left: 26px;
   width: 240px;
 }
-/* line 48, ../sass/_global.scss */
+/* line 49, ../sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
@@ -195,7 +198,7 @@ body div.content {
   overflow: auto;
   padding: 30px 0 30px 30px;
 }
-/* line 62, ../sass/_global.scss */
+/* line 63, ../sass/_global.scss */
 body div.shadow {
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzg3ODc4NyIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -223,6 +226,8 @@ body div.shadow {
   font-family: Meta-Pro;
   src: url(fonts/MetaPro-Normal.eot);
   src: url(fonts/MetaPro-Normal.otf) format(opentype), url(fonts/MetaPro-Normal.ttf) format(truetype), url(fonts/metapronormal.svg) format(svg);
+  font-style: normal;
+  font-weight: normal;
 }
 
 @font-face {
@@ -254,7 +259,7 @@ body div.shadow {
   src: url(fonts/MetaPro_Black.eot);
   src: url(fonts/MetaPro-Black.otf) format(opentype), url(fonts/MetaPro_Black.ttf) format(truetype), url(fonts/metapro-black.svg) format(svg);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 900;
 }
 
 /* line 3, ../sass/_header.scss */
@@ -343,12 +348,10 @@ header nav ul li ul.sub li:last-of-type {
 /* line 59, ../sass/_header.scss */
 header nav ul li a {
   color: #333;
-  font-family: MetaPro, arial, sans-serif;
   font-size: 0.785714286em;
-  font-weight: bold;
   text-decoration: none;
 }
-/* line 66, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
   text-decoration: none;
@@ -361,7 +364,7 @@ footer {
   clear: both;
   left: 315px;
   margin-bottom: 2em;
-  width: 360px;
+  width: 366px;
 }
 /* line 11, ../sass/_footer.scss */
 footer p {
@@ -389,10 +392,15 @@ div.content div.copy, div.content article.copy {
   border: 1px solid #e6e6e6;
   float: left;
   min-height: 125px;
+  line-height: 1.5em;
   padding: 15px;
   max-width: 918px;
 }
 /* line 23, ../sass/screen.scss */
+div.content div.copy section.contact, div.content article.copy section.contact {
+  float: left;
+}
+/* line 25, ../sass/screen.scss */
 div.content div.copy section.feature, div.content article.copy section.feature {
   border-right: 1px solid #bababa;
   float: left;
@@ -400,93 +408,93 @@ div.content div.copy section.feature, div.content article.copy section.feature {
   padding-right: 15px;
   width: 660px;
 }
-/* line 30, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 div.content div.copy section.feature h2:after, div.content article.copy section.feature h2:after {
   content: ':';
 }
-/* line 32, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 div.content div.copy section.feature img, div.content article.copy section.feature img {
   float: left;
   margin-right: 15px;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .home div.content div.copy {
   margin-top: 15px;
   width: 888px;
 }
 
-/* line 51, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .about div.content {
   overflow: auto;
 }
-/* line 54, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 .about div.content > h2 {
   font-weight: 100;
 }
-/* line 55, ../sass/screen.scss */
+/* line 57, ../sass/screen.scss */
 .about div.content > p {
   margin-right: 7em;
   margin-bottom: 1.5em;
 }
-/* line 57, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 .about div.content aside.sidebar {
   margin-left: 20px;
   width: 275px;
 }
-/* line 62, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .about div.content article.copy {
   margin-right: 35px;
   margin-bottom: 24px;
 }
-/* line 65, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .about div.content article.copy img {
   float: left;
   margin-right: 1em;
 }
-/* line 67, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .about div.content article.copy h2, .about div.content article.copy h3 {
   line-height: 1.5em;
 }
-/* line 68, ../sass/screen.scss */
+/* line 70, ../sass/screen.scss */
 .about div.content article.copy h3 {
   font-weight: bold;
 }
-/* line 70, ../sass/screen.scss */
+/* line 72, ../sass/screen.scss */
 .about div.content article.copy p.bio {
   color: #666;
   margin: 2em 0;
 }
-/* line 73, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .about div.content div.copy {
   padding: 20px;
   height: 530px;
   min-height: 585px;
   width: 560px;
 }
-/* line 79, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .about div.content div.copy h2 {
   line-height: 2.5em;
 }
-/* line 83, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .about div.gallery {
   float: left;
   width: inherit;
 }
-/* line 87, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 .about div.gallery ul li {
   float: left;
   margin-right: 2em;
 }
-/* line 91, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .about div.gallery ul li a {
   color: #000;
 }
-/* line 92, ../sass/screen.scss */
+/* line 94, ../sass/screen.scss */
 .about div.gallery ul li a:hover figcaption {
   color: #709d26;
 }
-/* line 96, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .about div.gallery footer.credits {
   margin-right: 38px;
   position: absolute;
@@ -496,47 +504,47 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   width: 25%;
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .line-card div.content {
   padding-bottom: 2em;
 }
-/* line 115, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .line-card div.content article.details h3 {
   color: rgba(0, 0, 0, 0);
   line-height: 0px;
 }
-/* line 119, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .line-card div.content article.details h3 img.logo {
   border: 1px solid #709d26;
   height: 65px;
   margin: 0px auto 2em;
   width: 230px;
 }
-/* line 127, ../sass/screen.scss */
+/* line 129, ../sass/screen.scss */
 .line-card div.content article.details img {
   margin: 1em 0px;
   width: 232px;
 }
-/* line 131, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .line-card div.content section.main {
   float: left;
   width: 650px;
 }
-/* line 135, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 .line-card div.content section.main div.head {
   margin-bottom: 2em;
   width: 600px;
 }
-/* line 139, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
 .line-card div.content section.main div.head h2 {
   float: left;
   margin-right: 1em;
 }
-/* line 140, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .line-card div.content section.main div.head form {
   float: left;
 }
-/* line 142, ../sass/screen.scss */
+/* line 144, ../sass/screen.scss */
 .line-card div.content section.main div.head form button {
   background: transparent url(images/search.png) 0 0 no-repeat;
   border: 0px;
@@ -545,7 +553,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: -1px;
   width: 20px;
 }
-/* line 151, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .line-card div.content section.main div.head form input {
   border: 1px solid black;
   height: 18px;
@@ -553,7 +561,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0px;
   width: 18em;
 }
-/* line 160, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf {
   color: #333;
   float: right;
@@ -562,16 +570,16 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   left: 40px;
   bottom: 5px;
 }
-/* line 168, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 172, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover span.icon {
   background-position-x: -22px;
 }
-/* line 175, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf span.icon {
   background: transparent url(images/pdf.png) 0 0 no-repeat;
   display: inline-block;
@@ -579,103 +587,103 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 6px;
   width: 21px;
 }
-/* line 185, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .line-card div.content section.main nav {
   float: left;
   margin-bottom: 1em;
 }
-/* line 192, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .line-card div.content section.main nav ul li {
   float: left;
   margin-top: 0.25em;
   width: 150px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(1) a span.icon {
   background-position: 0px 0px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(2) a span.icon {
   background-position: 0px -16px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(3) a span.icon {
   background-position: 0px -32px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(4) a span.icon {
   background-position: 0px -48px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(5) a span.icon {
   background-position: 0px -64px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(6) a span.icon {
   background-position: 0px -80px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(7) a span.icon {
   background-position: 0px -96px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(8) a span.icon {
   background-position: 0px -112px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(9) a span.icon {
   background-position: 0px -128px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(10) a span.icon {
   background-position: 0px -144px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(11) a span.icon {
   background-position: 0px -160px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(12) a span.icon {
   background-position: 0px -176px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(13) a span.icon {
   background-position: 0px -192px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(14) a span.icon {
   background-position: 0px -208px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(15) a span.icon {
   background-position: 0px -224px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(16) a span.icon {
   background-position: 0px -240px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(17) a span.icon {
   background-position: 0px -256px;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(18) a span.icon {
   background-position: 0px -272px;
 }
-/* line 203, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a {
   color: #333;
 }
-/* line 206, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 209, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover span.icon {
   background-position-x: -16px;
 }
-/* line 214, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a span.icon {
   background-image: url(images/icon_sprite.jpg);
   display: inline-block;
@@ -684,11 +692,11 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 3px;
   width: 16px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .line-card div.content section.main div {
   clear: both;
 }
-/* line 229, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list {
   color: #9e9fa0;
   clear: both;
@@ -698,7 +706,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0.5em 0em;
   margin-bottom: 1em;
 }
-/* line 238, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li {
   border-right: 2px solid #9e9fa0;
   float: left;
@@ -707,27 +715,27 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-left: 8px;
   width: 15px;
 }
-/* line 246, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li:first-of-type {
   padding-left: 0px;
 }
-/* line 247, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li:last-of-type {
   border-right: 0px;
 }
-/* line 249, ../sass/screen.scss */
+/* line 251, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li a {
   color: inherit;
   display: inline-block;
   font-size: 0.75em;
   width: 2em;
 }
-/* line 255, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li a:hover {
   text-decoration: none;
   color: #709d26;
 }
-/* line 263, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .line-card div.content section.main div ul.products {
   border-bottom: 1px solid #709d26;
   clear: both;
@@ -747,75 +755,75 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   -o-column-width: 50%;
   column-width: 50%;
 }
-/* line 274, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li {
   list-style-position: inside;
   list-style-type: disc;
   margin-bottom: 0.5em;
 }
-/* line 279, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li a {
   color: #333132;
   text-decoration: none;
 }
-/* line 283, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li a:hover {
   color: #709d26;
 }
-/* line 290, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 .line-card div.content section.main div ul.page {
   bottom: 0px;
   position: absolute;
   right: 0px;
 }
-/* line 295, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li {
   display: inline-block;
   float: left;
   padding: 0 0.25em;
 }
-/* line 300, ../sass/screen.scss */
+/* line 302, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:first-of-type:after {
   color: #709d26;
   content: " |";
 }
-/* line 301, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:first-of-type:before {
   color: #709d26;
   content: "<<";
 }
-/* line 302, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:last-of-type:after {
   color: #709d26;
   content: " >>";
 }
-/* line 303, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:last-of-type:before {
   color: #709d26;
   content: " ";
 }
-/* line 310, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 .line-card div.content div.shadow {
   right: 296px;
 }
 
-/* line 317, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 .samplelibrary div.content div.copy {
   min-height: 590px;
   width: 600px;
 }
-/* line 321, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 .samplelibrary div.content div.copy h2 {
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
-/* line 323, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 .samplelibrary div.content div.copy p {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
 }
-/* line 329, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .samplelibrary div.content div.copy ul.clients {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -824,41 +832,41 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   margin-left: 2em;
   margin-bottom: 1.5em;
 }
-/* line 335, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .samplelibrary div.content div.copy ul.clients li a {
   color: #666;
 }
-/* line 338, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 .samplelibrary div.content div.copy ul.clients li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 344, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .samplelibrary div.content div.shadow {
   height: 510px;
   right: 296px;
 }
-/* line 346, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 .samplelibrary aside.sidebar {
   height: 450px;
 }
-/* line 350, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 .samplelibrary aside.sidebar form label {
   display: block;
   font-weight: bold;
 }
-/* line 354, ../sass/screen.scss */
+/* line 356, ../sass/screen.scss */
 .samplelibrary aside.sidebar form label:after {
   content: ":";
 }
-/* line 357, ../sass/screen.scss */
+/* line 359, ../sass/screen.scss */
 .samplelibrary aside.sidebar form input {
   display: block;
   height: 2em;
   margin-bottom: 1.5em;
   width: 100%;
 }
-/* line 364, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 .samplelibrary aside.sidebar form button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -871,7 +879,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   font-weight: bold;
   padding: 0.25em 1em;
 }
-/* line 371, ../sass/screen.scss */
+/* line 373, ../sass/screen.scss */
 .samplelibrary aside.sidebar form button:hover {
   background-color: #709d26;
   cursor: pointer;

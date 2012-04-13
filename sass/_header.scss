@@ -58,9 +58,7 @@ header{
         
         a{
           color: #333;
-          font-family: MetaPro, arial, sans-serif;
           font-size:0.785714286em;
-          font-weight:bold;
           text-decoration:none;
           
           &:hover, &:active{ color: $solus_green; text-decoration:none; }

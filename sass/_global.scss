@@ -4,14 +4,15 @@
   position:relative;
 }
 
-h2 { font-size:1.71428571em; font-weight:400; }
+h2 { font-size:1.71428571em; font-weight:900; }
 
 em{ font-style:italic; }
 strong{ font-weight:bold; }
 
 body{
   background: transparent url(images/background.jpg) 0 0 repeat-x;
-  font-family: Meta-Pro, arial, sans-serif;
+  font-family: Meta-Pro, "ff-meta-web-pro", arial, sans-serif;
+  font-weight:normal;
   font-size:14px;
   height:100%;
   line-height:1.8em;
@@ -28,7 +29,7 @@ body{
   }
   
   p{
-    font-weight:100;
+    font-weight:normal;
     
     a { font-weight:100; }
   }
