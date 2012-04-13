@@ -1,4 +1,4 @@
-@import "global";
+@import "mixins", "variables";
 
 header{
   @include body_center;
@@ -8,6 +8,7 @@ header{
   height:120px;
   padding:0 15px;
   
+  a{ outline:0px; }
   h1{
     background: transparent url(images/solus_logo.jpg) 0 0 no-repeat;
     color:rgba(0,0,0,0);

@@ -1,6 +1,5 @@
 @import "compass/reset", "compass/css3", "mixins", "variables";
 
-
 *{
   position:relative;
 }
@@ -12,9 +11,8 @@ strong{ font-weight:bold; }
 
 body{
   background: transparent url(images/background.jpg) 0 0 repeat-x;
-  font-family: "Meta-Pro", arial, sans-serif;
+  font-family: Meta-Pro, arial, sans-serif;
   font-size:14px;
-  font-weight:100;
   height:100%;
   line-height:1.8em;
   width:100%;

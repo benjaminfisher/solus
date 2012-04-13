@@ -2,35 +2,48 @@
 
 @font-face{
   font-family:Meta-Pro;
-  src: url(fonts/MetaPro-Normal.ttf) format(truetype), url(fonts/MetaPro-Normal.otf) format(opentype);
-  font-style:normal;
-  font-weight:100;
+  src: url(fonts/MetaPro-Normal.eot);
+  src: url(fonts/MetaPro-Normal.otf) format(opentype),
+    url(fonts/MetaPro-Normal.ttf) format(truetype),
+    url(fonts/metapronormal.svg) format(svg);
 }
 
 @font-face{
   font-family:Meta-Pro;
-  src: url(fonts/MetaPro-NormalItalic.otf) format(opentype);
+  src: url(fonts/MetaPro_NormalItalic.eot);
+  src: url(fonts/MetaPro-NormalItalic.otf) format(opentype),
+    url(fonts/MetaPro-NormalItalic.ttf) format(truetype),
+    url(fonts/metapro-normalitalic.svg) format(svg);
   font-style:italic;
   font-weight:normal;
 }
 
 @font-face{
   font-family:Meta-Pro;
-  src: url(fonts/MetaPro-Bold.otf) format(opentype);
+  src: url(fonts/MetaPro_Bold.eot);
+  src: url(fonts/MetaPro-Bold.otf) format(opentype),
+    url(fonts/MetaPro_Bold.ttf) format(truetype),
+    url(fonts/metapro-bold.svg) format(svg);
   font-style:normal;
   font-weight:bold;
 }
 
 @font-face{
   font-family:Meta-Pro;
-  src: url(fonts/MetaPro-Medium.otf) format(opentype);
+  src: url(fonts/MetaPro_Medium.eot);
+  src: url(fonts/MetaPro-Medium.otf) format(opentype),
+    url(fonts/MetaPro_Medium.ttf) format(truetype),
+    url(fonts/metapro-medium.svg) format(svg);
   font-style:normal;
   font-weight:bolder;
 }
 
 @font-face{
   font-family:Meta-Pro;
-  src: url(fonts/MetaPro-Black.otf) format(opentype);
+  src: url(fonts/MetaPro_Black.eot);
+  src: url(fonts/MetaPro-Black.otf) format(opentype),
+    url(fonts/MetaPro_Black.ttf) format(truetype),
+    url(fonts/metapro-black.svg) format(svg);
   font-style:normal;
   font-weight:400;
 }
