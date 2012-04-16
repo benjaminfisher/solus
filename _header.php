@@ -1,7 +1,3 @@
-<?php 
-	$current_page = strstr(basename($_SERVER['PHP_SELF']), '.', TRUE);
-?>
-
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>

@@ -1,4 +1,9 @@
-<?php include "_header.php" ?>
+<?php 
+$current_page = 'index';
+
+include "_header.php"
+
+?>
 
 		<img class="hero" src="assets/homepage_image.png" alt="hero image" />
 		<div class="copy">

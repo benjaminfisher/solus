@@ -1,4 +1,9 @@
-<?php include "_header.php" ?>
+<?php
+
+$current_page = 'people';
+include "_header.php"
+
+?>
 
 		<h2>Outside Sales / Inside Sales</h2>
 		<p>The Solus outside sales team has over 80 years of combined lighting &amp; electrical experience, and is dedicated to educating and adding value to our customers. We do this through product training, literature updates, offering design assistance, and providing exceptional customer service every day.</p>

@@ -1,4 +1,9 @@
-<?php include "_header.php" ?>
+<?php
+
+$current_page = 'line-card';
+include "_header.php"
+
+?>
 
 		<aside class="sidebar">
 			<article class="details">

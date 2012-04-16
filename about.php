@@ -1,4 +1,9 @@
-<?php include "_header.php" ?>
+<?php
+
+$current_page = 'about';
+include "_header.php"
+
+?>
 
 		<aside class="sidebar"><img src="assets/windmill.jpg" alt="Wind power" /></aside>
 		<div class="copy">
