@@ -160,6 +160,8 @@ div.content {
             margin: 1px 0 0 -3px;
             padding:0px;
             width:18em;
+            
+            .ie & { bottom: 7px; }
           }
         }
         

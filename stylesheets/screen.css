@@ -131,7 +131,7 @@ strong {
 /* line 12, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
-  font-family: Meta-Pro, "ff-meta-web-pro", arial, sans-serif;
+  font-family: "Meta-Pro", "ff-meta-web-pro", Helvetica, arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
   height: 100%;
@@ -561,7 +561,11 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0px;
   width: 18em;
 }
-/* line 166, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
+.ie .line-card div.content section.main div.head form input {
+  bottom: 7px;
+}
+/* line 168, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf {
   color: #333;
   float: right;
@@ -570,16 +574,16 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   left: 40px;
   bottom: 5px;
 }
-/* line 174, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 178, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover span.icon {
   background-position-x: -22px;
 }
-/* line 181, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf span.icon {
   background: transparent url(images/pdf.png) 0 0 no-repeat;
   display: inline-block;
@@ -587,103 +591,103 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 6px;
   width: 21px;
 }
-/* line 191, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 .line-card div.content section.main nav {
   float: left;
   margin-bottom: 1em;
 }
-/* line 198, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .line-card div.content section.main nav ul li {
   float: left;
   margin-top: 0.25em;
   width: 150px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(1) a span.icon {
   background-position: 0px 0px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(2) a span.icon {
   background-position: 0px -16px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(3) a span.icon {
   background-position: 0px -32px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(4) a span.icon {
   background-position: 0px -48px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(5) a span.icon {
   background-position: 0px -64px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(6) a span.icon {
   background-position: 0px -80px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(7) a span.icon {
   background-position: 0px -96px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(8) a span.icon {
   background-position: 0px -112px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(9) a span.icon {
   background-position: 0px -128px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(10) a span.icon {
   background-position: 0px -144px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(11) a span.icon {
   background-position: 0px -160px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(12) a span.icon {
   background-position: 0px -176px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(13) a span.icon {
   background-position: 0px -192px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(14) a span.icon {
   background-position: 0px -208px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(15) a span.icon {
   background-position: 0px -224px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(16) a span.icon {
   background-position: 0px -240px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(17) a span.icon {
   background-position: 0px -256px;
 }
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(18) a span.icon {
   background-position: 0px -272px;
 }
-/* line 209, ../sass/screen.scss */
+/* line 211, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a {
   color: #333;
 }
-/* line 212, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 215, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover span.icon {
   background-position-x: -16px;
 }
-/* line 220, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a span.icon {
   background-image: url(images/icon_sprite.jpg);
   display: inline-block;
@@ -692,11 +696,11 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 3px;
   width: 16px;
 }
-/* line 232, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .line-card div.content section.main div {
   clear: both;
 }
-/* line 235, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list {
   color: #9e9fa0;
   clear: both;
@@ -706,7 +710,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0.5em 0em;
   margin-bottom: 1em;
 }
-/* line 244, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li {
   border-right: 2px solid #9e9fa0;
   float: left;
@@ -715,27 +719,27 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-left: 8px;
   width: 15px;
 }
-/* line 252, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li:first-of-type {
   padding-left: 0px;
 }
-/* line 253, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li:last-of-type {
   border-right: 0px;
 }
-/* line 255, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li a {
   color: inherit;
   display: inline-block;
   font-size: 0.75em;
   width: 2em;
 }
-/* line 261, ../sass/screen.scss */
+/* line 263, ../sass/screen.scss */
 .line-card div.content section.main div ul.alpha-list li a:hover {
   text-decoration: none;
   color: #709d26;
 }
-/* line 269, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .line-card div.content section.main div ul.products {
   border-bottom: 1px solid #709d26;
   clear: both;
@@ -755,75 +759,75 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   -o-column-width: 50%;
   column-width: 50%;
 }
-/* line 280, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li {
   list-style-position: inside;
   list-style-type: disc;
   margin-bottom: 0.5em;
 }
-/* line 285, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li a {
   color: #333132;
   text-decoration: none;
 }
-/* line 289, ../sass/screen.scss */
+/* line 291, ../sass/screen.scss */
 .line-card div.content section.main div ul.products li a:hover {
   color: #709d26;
 }
-/* line 296, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .line-card div.content section.main div ul.page {
   bottom: 0px;
   position: absolute;
   right: 0px;
 }
-/* line 301, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li {
   display: inline-block;
   float: left;
   padding: 0 0.25em;
 }
-/* line 306, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:first-of-type:after {
   color: #709d26;
   content: " |";
 }
-/* line 307, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:first-of-type:before {
   color: #709d26;
   content: "<<";
 }
-/* line 308, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:last-of-type:after {
   color: #709d26;
   content: " >>";
 }
-/* line 309, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .line-card div.content section.main div ul.page li:last-of-type:before {
   color: #709d26;
   content: " ";
 }
-/* line 316, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .line-card div.content div.shadow {
   right: 296px;
 }
 
-/* line 323, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 .sample-library div.content div.copy {
   min-height: 590px;
   width: 600px;
 }
-/* line 327, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .sample-library div.content div.copy h2 {
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
-/* line 329, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .sample-library div.content div.copy p {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
 }
-/* line 335, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -832,41 +836,41 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   margin-left: 2em;
   margin-bottom: 1.5em;
 }
-/* line 341, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients li a {
   color: #666;
 }
-/* line 344, ../sass/screen.scss */
+/* line 346, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 350, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 .sample-library div.content div.shadow {
   height: 510px;
   right: 296px;
 }
-/* line 352, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .sample-library aside.sidebar {
   height: 450px;
 }
-/* line 356, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .sample-library aside.sidebar form label {
   display: block;
   font-weight: bold;
 }
-/* line 360, ../sass/screen.scss */
+/* line 362, ../sass/screen.scss */
 .sample-library aside.sidebar form label:after {
   content: ":";
 }
-/* line 363, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .sample-library aside.sidebar form input {
   display: block;
   height: 2em;
   margin-bottom: 1.5em;
   width: 100%;
 }
-/* line 370, ../sass/screen.scss */
+/* line 372, ../sass/screen.scss */
 .sample-library aside.sidebar form button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -879,7 +883,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   font-weight: bold;
   padding: 0.25em 1em;
 }
-/* line 377, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .sample-library aside.sidebar form button:hover {
   background-color: #709d26;
   cursor: pointer;
