@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Solus - Home</title>
 	
-	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" />
+	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" />
 	
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js"></script>
 </head>

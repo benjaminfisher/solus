@@ -4,6 +4,8 @@ header{
   @include body_center;
   @include box-shadow(#AAA 0 2px 15px);
   
+  .no-boxshadow & { border-left: 2px solid $medium_grey; border-right: 2px solid $medium_grey; }
+  
   border-bottom: 2px solid $light_grey;
   height:120px;
   padding:0 15px;
@@ -18,6 +20,8 @@ header{
     line-height:0px;
     top: 30px;
     width:200px;
+    
+    .lt-ie9 & { text-indent: -999em; outline:0px; }
   }
   
   nav{
@@ -25,6 +29,8 @@ header{
     height:inherit;
     position:absolute;
     right:40px;
+    
+    .lt-ie8 & { bottom: 0px; }
     
     ul{
       height:inherit;
@@ -46,6 +52,14 @@ header{
           display:none;
           width:100px;
           z-index:100;
+          
+          .lt-ie8 & {
+            position: relative;
+            top: 50px;
+            right: 50px;
+          }
+          
+          .no-boxshadow & { border: 1px solid $medium-grey; }
           
           li{
             border-bottom: 1px solid $solus_green;

@@ -7,11 +7,17 @@
       	</a>
 	</footer>
 	
-	<script charset="utf-8">
-		head.js("http://use.typekit.com/byh6yog.js"),
+	<script>
+		head.js("http://code.jquery.com/jquery.min.js", "http://use.typekit.com/byh6yog.js",
 		function(){
-			try{Typekit.load();}catch(e){}
-		};
+			try{Typekit.load();}catch(e){};
+			
+			if(head.browser.ie){
+				head.js("scripts/jquery.columnizer.min.js", function(){
+					$('div.columns').columnize({ columns: 2 });
+				});
+			}
+		});
 	</script>
 </body>
 </html>

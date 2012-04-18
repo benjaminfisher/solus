@@ -8,7 +8,7 @@ include "_header.php"
 		<aside class="sidebar">
 			<article class="details">
 				<h3><img src="assets/logos/spi_lighting.jpg" alt="Client Logo" class="logo" />SPI Lighting</h3>
-				<img src="assets/products/sample_light_10.jpg" width="235px" alt="Lighting Product" />
+				<img src="assets/products/sample_light_10.jpg" width="235" alt="Lighting Product" />
 				<p>Advent Lighting - Part of the SPI Lighting family, Advent offers architectural decorative lighting for interior and exterior applications. An independently held company, the Advent brand embraces custom and modifications, offering distinctive solutions to your architectural lighting challenges.</p>
 			</article>
 		</aside>
@@ -75,40 +75,42 @@ include "_header.php"
 					<li><a href="">Z</a></li>
 				</ul>
 				
-				<ul class="products">
-					<li><a href="">Advent Lighting</a></li>
-					<li><a href="">Ametrix Lighting</a></li>
-					<li><a href="">Bartco Lighting</a></li>
-					<li><a href="">Beachside Lighting</a></li>
-					<li><a href="">Blauet</a></li>
-					<li><a href="">Brightline</a></li>
-					<li><a href="">Color Kinetics</a></li>
-					<li><a href="">Composite Materials Technology</a></li>
-					<li><a href="">Concealite</a></li>
-					<li><a href="">Cooper Controls</a></li>
-					<li><a href="">Cooper Lighting</a></li>
-					<li><a href="">Corelite</a></li>
-					<li><a href="">EcoFit</a></li>
-					<li><a href="">EcoSense</a></li>
-					<li><a href="">Elumen Lighting</a></li>
-					<li><a href="">Estiluz</a></li>
-					<li><a href="">Hampstead Lighting</a></li>
-					<li><a href="">Hi-Lite Manufacturing</a></li>
-					<li><a href="">iLumin</a></li>
-					<li><a href="">Invue</a></li>
-					<li><a href="">IO</a></li>
-					<li><a href="">Iota Engineering</a></li>
-					<li><a href="">Iris</a></li>
-					<li><a href="">Journee Lighting</a></li>
-					<!--<li><a href="">LBL Lighting</a></li>
-					<li><a href="">Led Works</a></li>
-					<li><a href="">Lighting Alternatives</a></li>
-					<li><a href="">Lightway</a></li>
-					<li><a href="">Lightwild</a></li>
-					<li><a href="">Linear Lighting</a></li>
-					<li><a href="">Litelab</a></li>
-					<li><a href="">Lumark</a></li> -->
-				</ul>
+				<div class="columns">
+					<ul class="products">
+						<li><a href="">Advent Lighting</a></li>
+						<li><a href="">Ametrix Lighting</a></li>
+						<li><a href="">Bartco Lighting</a></li>
+						<li><a href="">Beachside Lighting</a></li>
+						<li><a href="">Blauet</a></li>
+						<li><a href="">Brightline</a></li>
+						<li><a href="">Color Kinetics</a></li>
+						<li><a href="">Composite Materials Technology</a></li>
+						<li><a href="">Concealite</a></li>
+						<li><a href="">Cooper Controls</a></li>
+						<li><a href="">Cooper Lighting</a></li>
+						<li><a href="">Corelite</a></li>
+						<li><a href="">EcoFit</a></li>
+						<li><a href="">EcoSense</a></li>
+						<li><a href="">Elumen Lighting</a></li>
+						<li><a href="">Estiluz</a></li>
+						<li><a href="">Hampstead Lighting</a></li>
+						<li><a href="">Hi-Lite Manufacturing</a></li>
+						<li><a href="">iLumin</a></li>
+						<li><a href="">Invue</a></li>
+						<li><a href="">IO</a></li>
+						<li><a href="">Iota Engineering</a></li>
+						<li><a href="">Iris</a></li>
+						<li><a href="">Journee Lighting</a></li>
+						<!--<li><a href="">LBL Lighting</a></li>
+						<li><a href="">Led Works</a></li>
+						<li><a href="">Lighting Alternatives</a></li>
+						<li><a href="">Lightway</a></li>
+						<li><a href="">Lightwild</a></li>
+						<li><a href="">Linear Lighting</a></li>
+						<li><a href="">Litelab</a></li>
+						<li><a href="">Lumark</a></li> -->
+					</ul>
+				</div> <!-- End columns div -->
 				<ul class="page">
 					<li><a href="#">Prev</a></li>
 					<li><a href="#">Next</a></li>

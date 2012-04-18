@@ -6,6 +6,8 @@
 @import "global", "header", "footer";
 
 div.content {
+  z-index:0;
+  
   img.hero { margin: 0 auto; }
   
   div.copy, article.copy{
@@ -145,6 +147,10 @@ div.content {
         h2 { float:left; margin-right:1em; }
         form{
           float:left;
+          
+          .ie7 & { bottom:1px; }
+          
+          .ie & { top: 1px; }
           button{
             background: transparent url(images/search.png) 0 0 no-repeat;
             border:0px;
@@ -152,6 +158,12 @@ div.content {
             margin:0px;
             top:-1px;
             width:20px;
+            
+            .mozilla & {
+              left: 1px;
+              top: -4px;
+            }
+            
           }
           
           input{
@@ -162,6 +174,7 @@ div.content {
             width:18em;
             
             .ie & { bottom: 7px; }
+            .ie7 & { bottom: 1px; right: 3px; }
           }
         }
         
@@ -231,8 +244,20 @@ div.content {
         } // End nav list item styles
       } // End secondary nav styles for line-card
       
-      div{
+      > div{
         clear:both;
+        float:left;
+        
+        .ie7 & { width: 100%; }
+        
+        div.columns{
+          float: left;
+          
+          .ie & {
+            overflow: auto;
+            width: 100%;
+          }
+        }
         
         ul.alpha-list {
           color:$dark_grey;
@@ -241,7 +266,6 @@ div.content {
           float:left;
           height:1em;
           padding: 0.5em 0em;
-          margin-bottom:1em;
           
           li{
             border-right:2px solid $dark_grey;
@@ -274,6 +298,8 @@ div.content {
           margin-top:1em;
           padding-bottom:1em;
           width:540px;
+          
+          .ie & { clear:none; width: 100%; }
           
           @include column-count(2);
           @include column-gap(6em);
