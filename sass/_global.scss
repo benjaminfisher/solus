@@ -4,6 +4,8 @@
   position:relative;
 }
 
+a { outline: 0; }
+
 h2 { font-size:1.71428571em; font-weight:900; }
 
 em{ font-style:italic; }
@@ -23,9 +25,9 @@ body{
     font-weight:bold;
     text-decoration:none;
     
-    &:hover{
-      text-decoration:underline;
-    }
+    &:hover{ cursor: pointer; text-decoration:underline; }
+    &:active { outline: 0px; }
+    
   }
   
   p{
