@@ -9,6 +9,7 @@ header{
   border-bottom: 2px solid $light_grey;
   height:120px;
   padding:0 15px;
+  position:relative;
   
   a{ outline:0px; }
   h1{
@@ -18,6 +19,7 @@ header{
     float:left;
     left:15px;
     line-height:0px;
+    position:relative;
     top: 30px;
     width:200px;
     

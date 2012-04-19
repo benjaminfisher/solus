@@ -124,6 +124,8 @@ div.content {
         color: rgba(0,0,0,0);
         line-height:0px;
         
+        .no-rgba & { line-height: 0.5em; text-indent:-9999em; overflow-x:hidden; }
+        
         img.logo{
           border: 1px solid $solus_green;
           height:65px;
@@ -151,11 +153,13 @@ div.content {
           .ie7 & { bottom:1px; }
           
           .ie & { top: 1px; }
+          
           button{
             background: transparent url(images/search.png) 0 0 no-repeat;
             border:0px;
             height:20px;
             margin:0px;
+            position:relative;
             top:-1px;
             width:20px;
             
@@ -173,18 +177,21 @@ div.content {
             padding:0px;
             width:18em;
             
-            .ie & { bottom: 7px; }
-            .ie7 & { bottom: 1px; right: 3px; }
+            .ie & { position:relative; bottom: 7px; }
+            .ie7 & { position:relative; bottom: 1px; right: 3px; }
           }
         }
         
         a.pdf {
+          bottom:5px;
           color:#333;
           float:right;
           font-size:0.857142857em;
           height:22px;
           left:40px;
-          bottom:5px;
+          position:relative;
+          
+          .ie7 & { left: 0px; }
           
           &:hover {
             color:$solus_green;
@@ -197,6 +204,7 @@ div.content {
             background: transparent url(images/pdf.png) 0 0 no-repeat;
             display:inline-block;
             height:21px;
+            position:relative;
             top:6px;
             width:21px;
           }
@@ -247,6 +255,7 @@ div.content {
       > div{
         clear:both;
         float:left;
+        position:relative;
         
         .ie7 & { width: 100%; }
         
