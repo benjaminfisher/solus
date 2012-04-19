@@ -13,7 +13,9 @@
 			try{Typekit.load();}catch(e){};
 			
 			if(head.browser.ie){
-				head.js("scripts/jquery.columnizer.min.js", function(){
+				head.js("scripts/jquery.columnizer.min.js", "https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js",
+				"scripts/selectivizr-min.js",
+				function(){
 					$('div.columns').columnize({ columns: 2 });
 				});
 			}
