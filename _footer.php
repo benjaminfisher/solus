@@ -18,7 +18,7 @@
 				function(){
 					$('div.columns').columnize({ columns: 2 });
 				});
-			}
+			};
 		});
 	</script>
 </body>
