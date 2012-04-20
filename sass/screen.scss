@@ -86,7 +86,9 @@ div.content {
   
   div.gallery{
     float:left;
+    position:relative;
     width:inherit;
+    
     ul{
       li{
         float:left;
@@ -143,7 +145,7 @@ div.content {
       width: 650px;
       
       div.head{
-        margin-bottom:2em;
+        margin-bottom:10px;
         width: 600px;
   
         h2 { float:left; margin-right:1em; }

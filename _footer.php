@@ -13,11 +13,19 @@
 			try{Typekit.load();}catch(e){};
 			
 			if(head.browser.ie){
-				head.js("scripts/jquery.columnizer.min.js", "https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js",
-				"scripts/selectivizr-min.js",
+				head.js("scripts/jquery.columnizer.min.js",
 				function(){
-					$('div.columns').columnize({ columns: 2 });
+					$columns = $('div.columns');
+					
+					if($columns.hasClass('3')){
+						$columns.columnize( {columns:3} ).show();
+					} else {
+						$columns.columnize( {columns:2} ).show();
+					};
 				});
+				
+				head.js("https://ajax.googleapis.com/ajax/libs/mootools/1.4.5/mootools.js",
+						"scripts/selectivizr-min.js");
 			};
 		});
 	</script>

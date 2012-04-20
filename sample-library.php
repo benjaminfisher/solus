@@ -21,7 +21,7 @@ include "_header.php"
 		<div class="copy">
 			<h2>Sample Library</h2>
 			<p>The following is an inventory of the lighting samples that Solus has available to designers.  Take a moment to browse our Sample Library, and use the sidebar to reserve a product, which Solus will deliver to your office.  Don’t see what you are looking for?  Contact Solus to discuss custom sample orders for your project.</p>
-			<div class="columns">
+			<div class="columns 3">
 				<ul class="clients">
 					<li><a href="#">Ametrix</a></li>
 					<li><a href="#">Bartco</a></li>

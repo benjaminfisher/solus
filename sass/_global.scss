@@ -33,6 +33,8 @@ body{
   }
   
   .upper { text-transform:uppercase; }
+  
+  //.ie & div.columns{ display:none; }
  
  aside.sidebar{
     border-left: 1px solid $medium_grey;
