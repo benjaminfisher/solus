@@ -1,6 +1,6 @@
-<?php 
-$current_page = 'index';
+<?php
 
+$current_page = 'index';
 include "_header.php"
 
 ?>

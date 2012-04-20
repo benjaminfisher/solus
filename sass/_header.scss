@@ -11,6 +11,8 @@ header{
   padding:0 15px;
   position:relative;
   
+  .ie7 & { height: 140px; }
+  
   a{ outline:0px; }
   h1{
     background: transparent url(images/solus_logo.jpg) 0 0 no-repeat;
@@ -31,21 +33,21 @@ header{
     height:inherit;
     position:absolute;
     right:40px;
-    z-index:1;
+    z-index:10;
     zoom: 1;
     
-    .ie7 & { bottom: 0px; hasLayout: true; }
+    .ie7 & { top: 10px; hasLayout: true; }
     
     ul{
       height:inherit;
       position:relative;
-      z-index: 2;
+      z-index: 20;
       
       li{
         float:left;
         padding-left:50px;
         text-transform:uppercase;
-        z-index: 10;
+        z-index: 30;
         
         &:hover ul.sub { display:block; }
         &.current > a { color:$solus_green; }
@@ -64,11 +66,18 @@ header{
           zoom:1;
           
           .no-boxshadow & { border: 1px solid $medium-grey; }
+          .ie7 & {
+            clear: both;
+            left:130px;
+            top:20px;
+          }
           
           li{
             border-bottom: 1px solid $solus_green;
             float:none;
             padding: 0.5em 0;
+            
+            .ie7 & { display: inline-block; padding: 2px 0; }
             
             &:last-of-type{ border-bottom: 0px; padding-bottom:0; }
           }
