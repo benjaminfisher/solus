@@ -1,8 +1,12 @@
+<?php
+	$page_title = ucwords(strtr($current_page, "-", " "));
+?>
+
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
-	<title>Solus - Home</title>
+	<title> <?php echo ($current_page == 'index') ? "Home" : $page_title; echo " | Solus"; ?></title>
 	
 	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" />
 	
