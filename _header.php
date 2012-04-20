@@ -17,16 +17,16 @@
 		<a href="index.php"><h1>Solus</h1></a>
 		<nav>
 			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="about.php">About</a>
+				<li <?php if ($current_page == 'index'){ echo 'class="current"'; } ?>><a href="index.php">Home</a></li>
+				<li <?php if ($current_page == 'about'){ echo 'class="current"'; } ?>><a href="about.php">About</a>
 					<ul class="sub">
 						<li><a href="people.php">People</a></li>
 						<li><a href="#">Green Initiative</a></li>
 						<li><a href="#">Territory</a></li>
 					</ul>
 				</li>
-				<li><a href="line-card.php">Line Card</a></li>
-				<li><a href="sample-library.php">Sample Library</a></li>
+				<li <?php if ($current_page == 'line-card'){ echo 'class="current"'; } ?>><a href="line-card.php">Line Card</a></li>
+				<li <?php if ($current_page == 'sample-library'){ echo 'class="current"'; } ?>><a href="sample-library.php">Sample Library</a></li>
 			</ul>
 		</nav>
 	</header>
