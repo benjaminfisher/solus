@@ -6,6 +6,7 @@
 @import "global", "header", "footer";
 
 div.content {
+  zoom:1;
   z-index:0;
   
   img.hero { margin: 0 auto; }
@@ -295,6 +296,8 @@ div.content {
               font-size:0.75em;
               width: 2em;
               
+              .ie7 & { display:inline-block; height: 1em; padding-top: 2px; }
+              
               &:hover{
                 text-decoration:none;
                 color: $solus_green;
@@ -342,10 +345,10 @@ div.content {
             float:left;
             padding:0 0.25em;
             
-            &:first-of-type:after{ color:$solus_green; content:" |"; }
-            &:first-of-type:before{ color:$solus_green; content:"<<"; }
-            &:last-of-type:after{ color:$solus_green; content:" >>"; }
-            &:last-of-type:before{ color:$solus_green; content:" "; }
+            &:first-of-type::after{ color:$solus_green; content:" |"; }
+            &:first-of-type::before{ color:$solus_green; content:"<<"; }
+            &:last-of-type::after{ color:$solus_green; content:" >>"; }
+            &:last-of-type::before{ color:$solus_green; content:" "; }
             
           }
         } // End page ul styles
