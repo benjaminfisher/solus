@@ -5,7 +5,7 @@ include "_header.php"
 
 ?>
 
-		<img class="hero" src="assets/homepage_image.png" alt="hero image" />
+		<img class="hero" src="assets/homepage_image.jpg" alt="hero image" />
 		<div class="copy">
 			<section class="feature">
 				<img src="assets/cooper_lighting.jpg" alt="Cooper Lighting" />
