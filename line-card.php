@@ -7,7 +7,7 @@ include "_header.php"
 
 		<aside class="sidebar">
 			<article class="details">
-				<h3><img src="assets/logos/spi_lighting.jpg" alt="Client Logo" class="logo" />SPI Lighting</h3>
+				<img src="assets/logos/spi_lighting.jpg" alt="SPI Lighting" title="SPI Lighting" class="logo" />
 				<img src="assets/products/sample_light_10.jpg" width="235" alt="Lighting Product" />
 				<p>Advent Lighting - Part of the SPI Lighting family, Advent offers architectural decorative lighting for interior and exterior applications. An independently held company, the Advent brand embraces custom and modifications, offering distinctive solutions to your architectural lighting challenges.</p>
 			</article>
