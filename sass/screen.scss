@@ -153,9 +153,9 @@ div.content {
         form{
           float:left;
           
-          .ie7 & { bottom:1px; }
+          .ie7 &, .opera & { bottom:1px; }
           
-          .ie & { top: 1px; }
+          .ie &, .opera & { top: 1px; }
           
           button{
             background: transparent url(images/search.png) 0 0 no-repeat;
@@ -171,6 +171,8 @@ div.content {
               top: -4px;
             }
             
+            .opera & { top:2px; }
+            
           }
           
           input{
@@ -182,6 +184,8 @@ div.content {
             
             .ie & { position:relative; bottom: 7px; }
             .ie7 & { position:relative; bottom: 1px; right: 3px; }
+            
+            .opera & { position:relative; bottom: 3px; }
           }
         }
         
