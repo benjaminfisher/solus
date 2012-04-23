@@ -19,6 +19,7 @@ body{
   a{
     color: $solus_green;
     font-weight:bold;
+    outline:0px;
     text-decoration:none;
     
     &:hover{ cursor: pointer; text-decoration:underline; }

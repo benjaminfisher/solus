@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,45 +24,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, C:/Ruby192/lib/ruby/gems/1.9.1/gems/compass-0.11.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -107,28 +107,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: 900;
 }
 
-/* line 3, ../sass/_global.scss */
+/* line 3, c:/xampp/htdocs/Solus/sass/_global.scss */
 a {
   outline: 0;
 }
 
-/* line 5, ../sass/_global.scss */
+/* line 5, c:/xampp/htdocs/Solus/sass/_global.scss */
 h2 {
   font-size: 1.71428571em;
   font-weight: 900;
 }
 
-/* line 7, ../sass/_global.scss */
+/* line 7, c:/xampp/htdocs/Solus/sass/_global.scss */
 em {
   font-style: italic;
 }
 
-/* line 8, ../sass/_global.scss */
+/* line 8, c:/xampp/htdocs/Solus/sass/_global.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 10, ../sass/_global.scss */
+/* line 10, c:/xampp/htdocs/Solus/sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
   font-family: "Meta-Pro", "ff-meta-web-pro", Helvetica, arial, sans-serif;
@@ -138,34 +138,35 @@ body {
   line-height: 1.8em;
   width: 100%;
 }
-/* line 19, ../sass/_global.scss */
+/* line 19, c:/xampp/htdocs/Solus/sass/_global.scss */
 body a {
   color: #709d26;
   font-weight: bold;
+  outline: 0px;
   text-decoration: none;
 }
-/* line 24, ../sass/_global.scss */
+/* line 25, c:/xampp/htdocs/Solus/sass/_global.scss */
 body a:hover {
   cursor: pointer;
   text-decoration: underline;
 }
-/* line 25, ../sass/_global.scss */
+/* line 26, c:/xampp/htdocs/Solus/sass/_global.scss */
 body a:active {
   outline: 0px;
 }
-/* line 29, ../sass/_global.scss */
+/* line 30, c:/xampp/htdocs/Solus/sass/_global.scss */
 body p {
   font-weight: normal;
 }
-/* line 32, ../sass/_global.scss */
+/* line 33, c:/xampp/htdocs/Solus/sass/_global.scss */
 body p a {
   font-weight: 100;
 }
-/* line 35, ../sass/_global.scss */
+/* line 36, c:/xampp/htdocs/Solus/sass/_global.scss */
 body .upper {
   text-transform: uppercase;
 }
-/* line 37, ../sass/_global.scss */
+/* line 38, c:/xampp/htdocs/Solus/sass/_global.scss */
 body aside.sidebar {
   border-left: 1px solid #e6e6e6;
   float: right;
@@ -175,7 +176,7 @@ body aside.sidebar {
   padding-left: 26px;
   width: 240px;
 }
-/* line 47, ../sass/_global.scss */
+/* line 48, c:/xampp/htdocs/Solus/sass/_global.scss */
 body div.content {
   margin: 0 auto;
   width: 960px;
@@ -204,7 +205,7 @@ body div.content {
   padding: 30px 0 30px 30px;
   position: relative;
 }
-/* line 62, ../sass/_global.scss */
+/* line 63, c:/xampp/htdocs/Solus/sass/_global.scss */
 body div.shadow {
   /* IE9 SVG, needs conditional override of 'filter' to 'none' */
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzg3ODc4NyIgc3RvcC1vcGFjaXR5PSIwLjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
@@ -268,7 +269,7 @@ body div.shadow {
   font-weight: 900;
 }
 
-/* line 3, ../sass/_header.scss */
+/* line 3, c:/xampp/htdocs/Solus/sass/_header.scss */
 header {
   margin: 0 auto;
   width: 960px;
@@ -281,20 +282,20 @@ header {
   padding: 0 15px;
   position: relative;
 }
-/* line 7, ../sass/_header.scss */
+/* line 7, c:/xampp/htdocs/Solus/sass/_header.scss */
 .no-boxshadow header {
   border-left: 2px solid #e6e6e6;
   border-right: 2px solid #e6e6e6;
 }
-/* line 14, ../sass/_header.scss */
+/* line 14, c:/xampp/htdocs/Solus/sass/_header.scss */
 .ie7 header {
   height: 140px;
 }
-/* line 16, ../sass/_header.scss */
+/* line 16, c:/xampp/htdocs/Solus/sass/_header.scss */
 header a {
   outline: 0px;
 }
-/* line 17, ../sass/_header.scss */
+/* line 17, c:/xampp/htdocs/Solus/sass/_header.scss */
 header h1 {
   background: transparent url(images/solus_logo.jpg) 0 0 no-repeat;
   color: rgba(0, 0, 0, 0);
@@ -306,12 +307,12 @@ header h1 {
   top: 30px;
   width: 200px;
 }
-/* line 28, ../sass/_header.scss */
+/* line 28, c:/xampp/htdocs/Solus/sass/_header.scss */
 .lt-ie9 header h1 {
   text-indent: -999em;
   outline: 0px;
 }
-/* line 31, ../sass/_header.scss */
+/* line 31, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav {
   bottom: -75px;
   height: inherit;
@@ -320,33 +321,33 @@ header nav {
   z-index: 10;
   zoom: 1;
 }
-/* line 39, ../sass/_header.scss */
+/* line 39, c:/xampp/htdocs/Solus/sass/_header.scss */
 .ie7 header nav {
   top: 10px;
   hasLayout: true;
 }
-/* line 41, ../sass/_header.scss */
+/* line 41, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul {
   height: inherit;
   position: relative;
   z-index: 20;
 }
-/* line 46, ../sass/_header.scss */
+/* line 46, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li {
   float: left;
   padding-left: 50px;
   text-transform: uppercase;
   z-index: 30;
 }
-/* line 52, ../sass/_header.scss */
+/* line 52, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li:hover ul.sub {
   display: block;
 }
-/* line 53, ../sass/_header.scss */
+/* line 53, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li.current > a {
   color: #709d26;
 }
-/* line 55, ../sass/_header.scss */
+/* line 55, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li ul.sub {
   -moz-box-shadow: grey 2px 2px 5px;
   -webkit-box-shadow: grey 2px 2px 5px;
@@ -367,45 +368,45 @@ header nav ul li ul.sub {
   z-index: 100;
   zoom: 1;
 }
-/* line 68, ../sass/_header.scss */
+/* line 68, c:/xampp/htdocs/Solus/sass/_header.scss */
 .no-boxshadow header nav ul li ul.sub {
   border: 1px solid #e6e6e6;
 }
-/* line 69, ../sass/_header.scss */
+/* line 69, c:/xampp/htdocs/Solus/sass/_header.scss */
 .ie7 header nav ul li ul.sub {
   clear: both;
   left: 130px;
   top: 20px;
 }
-/* line 75, ../sass/_header.scss */
+/* line 75, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li ul.sub li {
   border-bottom: 1px solid #709d26;
   float: none;
   padding: 0.5em 0;
 }
-/* line 80, ../sass/_header.scss */
+/* line 80, c:/xampp/htdocs/Solus/sass/_header.scss */
 .ie7 header nav ul li ul.sub li {
   display: inline-block;
   padding: 2px 0;
 }
-/* line 82, ../sass/_header.scss */
+/* line 82, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li ul.sub li:last-of-type {
   border-bottom: 0px;
   padding-bottom: 0;
 }
-/* line 86, ../sass/_header.scss */
+/* line 86, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li a {
   color: #333;
   font-size: 0.785714286em;
   text-decoration: none;
 }
-/* line 91, ../sass/_header.scss */
+/* line 91, c:/xampp/htdocs/Solus/sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
   text-decoration: none;
 }
 
-/* line 3, ../sass/_footer.scss */
+/* line 3, c:/xampp/htdocs/Solus/sass/_footer.scss */
 footer {
   margin: 0 auto;
   width: 960px;
@@ -415,11 +416,11 @@ footer {
   position: relative;
   width: 366px;
 }
-/* line 12, ../sass/_footer.scss */
+/* line 12, c:/xampp/htdocs/Solus/sass/_footer.scss */
 footer p {
   float: left;
 }
-/* line 13, ../sass/_footer.scss */
+/* line 13, c:/xampp/htdocs/Solus/sass/_footer.scss */
 footer a {
   top: 3px;
   margin-left: 0.5em;
