@@ -123,20 +123,15 @@ div.content {
     padding-bottom: 2em;
     
     article.details{
-      h3{
-        color: rgba(0,0,0,0);
-        line-height:0px;
-        
-        .no-rgba & { line-height: 0.5em; text-indent:-9999em; overflow-x:hidden; }
-        
-        img.logo{
-          border: 1px solid $solus_green;
-          height:65px;
-          margin:0px auto 2em;
-          width:230px;
-        }
-       
+      img.logo{
+        border: 1px solid $solus_green;
+        height:65px;
+        margin:0px auto 2em;
+        width:230px;
+        zoom:1;
+        z-index:100;
       }
+      
       img{ margin: 1em 0px; width: 232px; }
       
     }// End details article in sidebar

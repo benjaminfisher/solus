@@ -564,56 +564,47 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-bottom: 2em;
 }
 /* line 126, ../sass/screen.scss */
-.line-card div.content article.details h3 {
-  color: rgba(0, 0, 0, 0);
-  line-height: 0px;
-}
-/* line 130, ../sass/screen.scss */
-.no-rgba .line-card div.content article.details h3 {
-  line-height: 0.5em;
-  text-indent: -9999em;
-  overflow-x: hidden;
-}
-/* line 132, ../sass/screen.scss */
-.line-card div.content article.details h3 img.logo {
+.line-card div.content article.details img.logo {
   border: 1px solid #709d26;
   height: 65px;
   margin: 0px auto 2em;
   width: 230px;
+  zoom: 1;
+  z-index: 100;
 }
-/* line 140, ../sass/screen.scss */
+/* line 135, ../sass/screen.scss */
 .line-card div.content article.details img {
   margin: 1em 0px;
   width: 232px;
 }
-/* line 144, ../sass/screen.scss */
+/* line 139, ../sass/screen.scss */
 .line-card div.content section.main {
   float: left;
   width: 650px;
 }
-/* line 148, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 .line-card div.content section.main div.head {
   margin-bottom: 10px;
   width: 600px;
 }
-/* line 152, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .line-card div.content section.main div.head h2 {
   float: left;
   margin-right: 1em;
 }
-/* line 153, ../sass/screen.scss */
+/* line 148, ../sass/screen.scss */
 .line-card div.content section.main div.head form {
   float: left;
 }
-/* line 156, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .ie7 .line-card div.content section.main div.head form, .opera .line-card div.content section.main div.head form {
   bottom: 1px;
 }
-/* line 158, ../sass/screen.scss */
+/* line 153, ../sass/screen.scss */
 .ie .line-card div.content section.main div.head form, .opera .line-card div.content section.main div.head form {
   top: 1px;
 }
-/* line 160, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 .line-card div.content section.main div.head form button {
   background: transparent url(images/search.png) 0 0 no-repeat;
   border: 0px;
@@ -623,16 +614,16 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: -1px;
   width: 20px;
 }
-/* line 169, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 .mozilla .line-card div.content section.main div.head form button {
   left: 1px;
   top: -4px;
 }
-/* line 174, ../sass/screen.scss */
+/* line 169, ../sass/screen.scss */
 .opera .line-card div.content section.main div.head form button {
   top: 2px;
 }
-/* line 178, ../sass/screen.scss */
+/* line 173, ../sass/screen.scss */
 .line-card div.content section.main div.head form input {
   border: 1px solid black;
   height: 18px;
@@ -640,23 +631,23 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding: 0px;
   width: 18em;
 }
-/* line 185, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .ie .line-card div.content section.main div.head form input {
   position: relative;
   bottom: 7px;
 }
-/* line 186, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 .ie7 .line-card div.content section.main div.head form input {
   position: relative;
   bottom: 1px;
   right: 3px;
 }
-/* line 188, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 .opera .line-card div.content section.main div.head form input {
   position: relative;
   bottom: 3px;
 }
-/* line 192, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf {
   bottom: 5px;
   color: #333;
@@ -666,20 +657,20 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   left: 40px;
   position: relative;
 }
-/* line 201, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .ie7 .line-card div.content section.main div.head a.pdf {
   left: 0px;
 }
-/* line 203, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 207, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf:hover span.icon {
   background-position-x: -22px;
 }
-/* line 210, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .line-card div.content section.main div.head a.pdf span.icon {
   background: transparent url(images/pdf.png) 0 0 no-repeat;
   display: inline-block;
@@ -688,103 +679,103 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 6px;
   width: 21px;
 }
-/* line 221, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 .line-card div.content section.main nav {
   float: left;
   margin-bottom: 1em;
 }
-/* line 228, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .line-card div.content section.main nav ul li {
   float: left;
   margin-top: 0.25em;
   width: 150px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(1) a span.icon {
   background-position: 0px 0px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(2) a span.icon {
   background-position: 0px -16px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(3) a span.icon {
   background-position: 0px -32px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(4) a span.icon {
   background-position: 0px -48px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(5) a span.icon {
   background-position: 0px -64px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(6) a span.icon {
   background-position: 0px -80px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(7) a span.icon {
   background-position: 0px -96px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(8) a span.icon {
   background-position: 0px -112px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(9) a span.icon {
   background-position: 0px -128px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(10) a span.icon {
   background-position: 0px -144px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(11) a span.icon {
   background-position: 0px -160px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(12) a span.icon {
   background-position: 0px -176px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(13) a span.icon {
   background-position: 0px -192px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(14) a span.icon {
   background-position: 0px -208px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(15) a span.icon {
   background-position: 0px -224px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(16) a span.icon {
   background-position: 0px -240px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(17) a span.icon {
   background-position: 0px -256px;
 }
-/* line 234, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 .line-card div.content section.main nav ul li:nth-of-type(18) a span.icon {
   background-position: 0px -272px;
 }
-/* line 239, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a {
   color: #333;
 }
-/* line 242, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 245, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a:hover span.icon {
   background-position-x: -16px;
 }
-/* line 250, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .line-card div.content section.main nav ul li a span.icon {
   background-image: url(images/icon_sprite.jpg);
   display: inline-block;
@@ -793,26 +784,26 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   top: 3px;
   width: 16px;
 }
-/* line 262, ../sass/screen.scss */
+/* line 257, ../sass/screen.scss */
 .line-card div.content section.main > div {
   clear: both;
   float: left;
   position: relative;
 }
-/* line 267, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .ie7 .line-card div.content section.main > div {
   width: 100%;
 }
-/* line 269, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .line-card div.content section.main > div div.columns {
   float: left;
 }
-/* line 272, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .ie .line-card div.content section.main > div div.columns {
   overflow: auto;
   width: 100%;
 }
-/* line 278, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .line-card div.content section.main > div ul.alpha-list {
   color: #9e9fa0;
   clear: both;
@@ -821,7 +812,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   height: 1em;
   padding: 0.5em 0em;
 }
-/* line 286, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .line-card div.content section.main > div ul.alpha-list li {
   border-right: 2px solid #9e9fa0;
   float: left;
@@ -830,33 +821,33 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-left: 8px;
   width: 15px;
 }
-/* line 294, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 .line-card div.content section.main > div ul.alpha-list li:first-of-type {
   padding-left: 0px;
 }
-/* line 295, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 .line-card div.content section.main > div ul.alpha-list li:last-of-type {
   border-right: 0px;
 }
-/* line 297, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 .line-card div.content section.main > div ul.alpha-list li a {
   color: inherit;
   display: inline-block;
   font-size: 0.75em;
   width: 2em;
 }
-/* line 303, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 .ie7 .line-card div.content section.main > div ul.alpha-list li a {
   display: inline-block;
   height: 1em;
   padding-top: 2px;
 }
-/* line 305, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .line-card div.content section.main > div ul.alpha-list li a:hover {
   text-decoration: none;
   color: #709d26;
 }
-/* line 313, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 .line-card div.content section.main > div ul.products {
   border-bottom: 1px solid #709d26;
   clear: both;
@@ -876,80 +867,80 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   -o-column-width: 50%;
   column-width: 50%;
 }
-/* line 320, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 .ie .line-card div.content section.main > div ul.products {
   clear: none;
   width: 100%;
 }
-/* line 326, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 .line-card div.content section.main > div ul.products li {
   list-style-position: inside;
   list-style-type: disc;
   margin-bottom: 0.5em;
 }
-/* line 331, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .line-card div.content section.main > div ul.products li a {
   color: #333132;
   text-decoration: none;
 }
-/* line 335, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 .line-card div.content section.main > div ul.products li a:hover {
   color: #709d26;
 }
-/* line 342, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 .line-card div.content section.main > div ul.page {
   bottom: 0px;
   position: absolute;
   right: 0px;
 }
-/* line 347, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 .line-card div.content section.main > div ul.page li {
   display: inline-block;
   float: left;
   padding: 0 0.25em;
 }
-/* line 352, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .line-card div.content section.main > div ul.page li:first-of-type::after {
   color: #709d26;
   content: " |";
 }
-/* line 353, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 .line-card div.content section.main > div ul.page li:first-of-type::before {
   color: #709d26;
   content: "<<";
 }
-/* line 354, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 .line-card div.content section.main > div ul.page li:last-of-type::after {
   color: #709d26;
   content: " >>";
 }
-/* line 355, ../sass/screen.scss */
+/* line 350, ../sass/screen.scss */
 .line-card div.content section.main > div ul.page li:last-of-type::before {
   color: #709d26;
   content: " ";
 }
-/* line 362, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 .line-card div.content div.shadow {
   right: 296px;
 }
 
-/* line 369, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 .sample-library div.content div.copy {
   min-height: 590px;
   width: 600px;
 }
-/* line 373, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 .sample-library div.content div.copy h2 {
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
-/* line 375, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 .sample-library div.content div.copy p {
   border-bottom: 1px solid #e6e6e6;
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
 }
-/* line 381, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -958,41 +949,41 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   margin-left: 2em;
   margin-bottom: 1.5em;
 }
-/* line 387, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients li a {
   color: #666;
 }
-/* line 390, ../sass/screen.scss */
+/* line 385, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 396, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .sample-library div.content div.shadow {
   height: 510px;
   right: 296px;
 }
-/* line 398, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .sample-library aside.sidebar {
   height: 450px;
 }
-/* line 402, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 .sample-library aside.sidebar form label {
   display: block;
   font-weight: bold;
 }
-/* line 406, ../sass/screen.scss */
+/* line 401, ../sass/screen.scss */
 .sample-library aside.sidebar form label:after {
   content: ":";
 }
-/* line 409, ../sass/screen.scss */
+/* line 404, ../sass/screen.scss */
 .sample-library aside.sidebar form input {
   display: block;
   height: 2em;
   margin-bottom: 1.5em;
   width: 100%;
 }
-/* line 416, ../sass/screen.scss */
+/* line 411, ../sass/screen.scss */
 .sample-library aside.sidebar form button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -1005,7 +996,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   font-weight: bold;
   padding: 0.25em 1em;
 }
-/* line 423, ../sass/screen.scss */
+/* line 418, ../sass/screen.scss */
 .sample-library aside.sidebar form button:hover {
   background-color: #709d26;
   cursor: pointer;
