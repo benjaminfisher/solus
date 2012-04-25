@@ -255,16 +255,17 @@ header nav ul li {
   float: left;
   padding-left: 50px;
   text-transform: uppercase;
+  z-index: 30;
 }
-/* line 49, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 header nav ul li:hover ul.sub {
   display: block;
 }
-/* line 50, ../sass/_header.scss */
+/* line 51, ../sass/_header.scss */
 header nav ul li.current > a {
   color: #709d26;
 }
-/* line 52, ../sass/_header.scss */
+/* line 53, ../sass/_header.scss */
 header nav ul li ul.sub {
   -moz-box-shadow: grey 2px 2px 5px;
   -webkit-box-shadow: grey 2px 2px 5px;
@@ -282,41 +283,42 @@ header nav ul li ul.sub {
   position: absolute;
   display: none;
   width: 100px;
+  z-index: 100;
   zoom: 1;
 }
-/* line 64, ../sass/_header.scss */
+/* line 66, ../sass/_header.scss */
 .no-boxshadow header nav ul li ul.sub {
   border: 1px solid #e6e6e6;
 }
-/* line 65, ../sass/_header.scss */
+/* line 67, ../sass/_header.scss */
 .ie7 header nav ul li ul.sub {
   clear: both;
   left: 130px;
   top: 20px;
 }
-/* line 71, ../sass/_header.scss */
+/* line 73, ../sass/_header.scss */
 header nav ul li ul.sub li {
   border-bottom: 1px solid #709d26;
   float: none;
   padding: 0.5em 0;
 }
-/* line 76, ../sass/_header.scss */
+/* line 78, ../sass/_header.scss */
 .ie7 header nav ul li ul.sub li {
   display: inline-block;
   padding: 2px 0;
 }
-/* line 78, ../sass/_header.scss */
+/* line 80, ../sass/_header.scss */
 header nav ul li ul.sub li:last-of-type {
   border-bottom: 0px;
   padding-bottom: 0;
 }
-/* line 82, ../sass/_header.scss */
+/* line 84, ../sass/_header.scss */
 header nav ul li a {
   color: #333;
   font-size: 0.785714286em;
   text-decoration: none;
 }
-/* line 87, ../sass/_header.scss */
+/* line 89, ../sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
   text-decoration: none;
