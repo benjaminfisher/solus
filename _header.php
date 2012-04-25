@@ -8,9 +8,8 @@
 	<meta charset="UTF-8">
 	<title> <?php echo ($current_page == 'index') ? "Home" : $page_title; echo " | Solus"; ?></title>
 	
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js"></script>	
 	<link rel="stylesheet" href="stylesheets/screen.css" media="screen, projection" />
-	
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/headjs/0.96/head.min.js"></script>
 </head>
 <body class="<?php echo $current_page ?>">
 	<header>

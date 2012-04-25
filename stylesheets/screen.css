@@ -91,7 +91,7 @@ strong {
 /* line 10, ../sass/_global.scss */
 body {
   background: transparent url(images/background.jpg) 0 0 repeat-x;
-  font-family: MetaPro, "ff-meta-web-pro", Helvetica, arial, sans-serif;
+  font-family: "ff-meta-web-pro", Meta-Pro, Helvetica, arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
   height: 100%;
