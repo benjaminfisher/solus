@@ -899,6 +899,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
 .sample-library div.content div.copy ul.samples li p {
   border-bottom: 0px;
   font-size: 0.785714286em;
+  line-height: 1.2em;
 }
 /* line 406, ../sass/screen.scss */
 .sample-library div.content div.shadow {
