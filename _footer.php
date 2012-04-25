@@ -1,7 +1,7 @@
 	</div><!--End Content Div -->
 	
 	<footer>
-		<p class="copy">Copyright &copy; Solus Inc, 2010</p>
+		<p class="copy">Copyright &copy; Solus Inc, 2012</p>
 		<a class="credit_link" title="Media Drink" href="http://mediadrink.com">
         	<img alt="site design by media drink" src="http://media.mediadrink.com/media_drink_wave_dark_brown.png" />
       	</a>
