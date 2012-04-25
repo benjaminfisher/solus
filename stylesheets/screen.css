@@ -862,6 +862,11 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   padding-bottom: 1.5em;
 }
 /* line 376, ../sass/screen.scss */
+.sample-library div.content div.copy a.return {
+  position: relative;
+  bottom: 1.5em;
+}
+/* line 378, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients {
   -moz-column-count: 3;
   -webkit-column-count: 3;
@@ -870,41 +875,57 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   margin-left: 2em;
   margin-bottom: 1.5em;
 }
-/* line 382, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients li a {
   color: #666;
 }
-/* line 385, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
 .sample-library div.content div.copy ul.clients li a:hover {
   color: #709d26;
   text-decoration: none;
 }
-/* line 391, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
+.sample-library div.content div.copy ul.samples li {
+  display: block;
+  float: left;
+  margin-right: 1em;
+  max-width: 175px;
+}
+/* line 399, ../sass/screen.scss */
+.sample-library div.content div.copy ul.samples li a {
+  font-weight: normal;
+}
+/* line 400, ../sass/screen.scss */
+.sample-library div.content div.copy ul.samples li p {
+  border-bottom: 0px;
+  font-size: 0.785714286em;
+}
+/* line 406, ../sass/screen.scss */
 .sample-library div.content div.shadow {
   height: 510px;
   right: 296px;
 }
-/* line 393, ../sass/screen.scss */
+/* line 408, ../sass/screen.scss */
 .sample-library aside.sidebar {
   height: 450px;
 }
-/* line 397, ../sass/screen.scss */
+/* line 412, ../sass/screen.scss */
 .sample-library aside.sidebar form label {
   display: block;
   font-weight: bold;
 }
-/* line 401, ../sass/screen.scss */
+/* line 416, ../sass/screen.scss */
 .sample-library aside.sidebar form label:after {
   content: ":";
 }
-/* line 404, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 .sample-library aside.sidebar form input {
   display: block;
   height: 2em;
   margin-bottom: 1.5em;
   width: 100%;
 }
-/* line 411, ../sass/screen.scss */
+/* line 426, ../sass/screen.scss */
 .sample-library aside.sidebar form button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -917,7 +938,7 @@ div.content div.copy section.feature img, div.content article.copy section.featu
   font-weight: bold;
   padding: 0.25em 1em;
 }
-/* line 418, ../sass/screen.scss */
+/* line 433, ../sass/screen.scss */
 .sample-library aside.sidebar form button:hover {
   background-color: #709d26;
   cursor: pointer;

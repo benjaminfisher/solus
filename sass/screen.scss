@@ -373,19 +373,34 @@ div.content {
       padding-bottom:1.5em;
     }
     
+    a.return{ position:relative; bottom:1.5em; }
+    
     ul.clients{
       @include column-count(3);
       margin-left:2em;
       margin-bottom:1.5em;
       
-      li{        
+      li{
         a{
           color:#666;
           
           &:hover{ color: $solus_green; text-decoration:none; }
         }
       }
-    } // End Clints list specific styles    
+    } // End Clints list specific styles
+    
+    ul.samples{
+      li{
+        display:block;
+        float:left;
+        margin-right:1em;
+        max-width:175px;
+        
+        a { font-weight:normal; }
+        p{ border-bottom: 0px; font-size:0.785714286em; }
+        
+      } // End list item styles for Samples list
+    } // End Samples list styles
   } // End Copy Div styles
   
   div.content div.shadow{ height:510px; right: 296px; }
