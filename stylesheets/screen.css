@@ -238,36 +238,33 @@ header nav {
   height: inherit;
   position: absolute;
   right: 40px;
-  z-index: 10;
   zoom: 1;
 }
-/* line 39, ../sass/_header.scss */
+/* line 38, ../sass/_header.scss */
 .ie7 header nav {
   top: 10px;
   hasLayout: true;
 }
-/* line 41, ../sass/_header.scss */
+/* line 40, ../sass/_header.scss */
 header nav ul {
   height: inherit;
   position: relative;
-  z-index: 20;
 }
-/* line 46, ../sass/_header.scss */
+/* line 44, ../sass/_header.scss */
 header nav ul li {
   float: left;
   padding-left: 50px;
   text-transform: uppercase;
-  z-index: 30;
 }
-/* line 52, ../sass/_header.scss */
+/* line 49, ../sass/_header.scss */
 header nav ul li:hover ul.sub {
   display: block;
 }
-/* line 53, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 header nav ul li.current > a {
   color: #709d26;
 }
-/* line 55, ../sass/_header.scss */
+/* line 52, ../sass/_header.scss */
 header nav ul li ul.sub {
   -moz-box-shadow: grey 2px 2px 5px;
   -webkit-box-shadow: grey 2px 2px 5px;
@@ -285,42 +282,41 @@ header nav ul li ul.sub {
   position: absolute;
   display: none;
   width: 100px;
-  z-index: 100;
   zoom: 1;
 }
-/* line 68, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 .no-boxshadow header nav ul li ul.sub {
   border: 1px solid #e6e6e6;
 }
-/* line 69, ../sass/_header.scss */
+/* line 65, ../sass/_header.scss */
 .ie7 header nav ul li ul.sub {
   clear: both;
   left: 130px;
   top: 20px;
 }
-/* line 75, ../sass/_header.scss */
+/* line 71, ../sass/_header.scss */
 header nav ul li ul.sub li {
   border-bottom: 1px solid #709d26;
   float: none;
   padding: 0.5em 0;
 }
-/* line 80, ../sass/_header.scss */
+/* line 76, ../sass/_header.scss */
 .ie7 header nav ul li ul.sub li {
   display: inline-block;
   padding: 2px 0;
 }
-/* line 82, ../sass/_header.scss */
+/* line 78, ../sass/_header.scss */
 header nav ul li ul.sub li:last-of-type {
   border-bottom: 0px;
   padding-bottom: 0;
 }
-/* line 86, ../sass/_header.scss */
+/* line 82, ../sass/_header.scss */
 header nav ul li a {
   color: #333;
   font-size: 0.785714286em;
   text-decoration: none;
 }
-/* line 91, ../sass/_header.scss */
+/* line 87, ../sass/_header.scss */
 header nav ul li a:hover, header nav ul li a:active {
   color: #709d26;
   text-decoration: none;

@@ -33,7 +33,6 @@ header{
     height:inherit;
     position:absolute;
     right:40px;
-    z-index:10;
     zoom: 1;
     
     .ie7 & { top: 10px; hasLayout: true; }
@@ -41,13 +40,11 @@ header{
     ul{
       height:inherit;
       position:relative;
-      z-index: 20;
       
       li{
         float:left;
         padding-left:50px;
         text-transform:uppercase;
-        z-index: 30;
         
         &:hover ul.sub { display:block; }
         &.current > a { color:$solus_green; }
@@ -62,7 +59,6 @@ header{
           position:absolute;
           display:none;
           width:100px;
-          z-index:100;
           zoom:1;
           
           .no-boxshadow & { border: 1px solid $medium-grey; }
