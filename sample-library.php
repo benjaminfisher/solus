@@ -11,7 +11,7 @@ include "_sample_form.php";
 			<p>The following is an inventory of the lighting samples that Solus has available to designers.  Take a moment to browse our Sample Library, and use the sidebar to reserve a product, which Solus will deliver to your office.  Don’t see what you are looking for?  Contact Solus to discuss custom sample orders for your project.</p>
 			<div class="columns 3">
 				<ul class="clients">
-					<li><a href="#">Ametrix</a></li>
+					<li><a href="ametrix_samples.php">Ametrix</a></li>
 					<li><a href="#">Bartco</a></li>
 					<li><a href="#">Beachside</a></li>
 					<li><a href="#">Blauet</a></li>
@@ -47,7 +47,7 @@ include "_sample_form.php";
 					<li><a href="#">Waldmann</a></li>
 				</ul>
 			</div>
-		</div>
+		</div> <!-- End Copy Div -->
 		<div class="shadow"></div>
 	
 <?php include '_footer.php'; ?>
