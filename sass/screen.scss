@@ -157,8 +157,8 @@ div.content {
             border:0px;
             height:20px;
             margin:0px;
-            position:relative;
-            top:-1px;
+            position: relative;
+            top: -2px;
             width:20px;
             
             .mozilla & {
@@ -174,7 +174,10 @@ div.content {
             border: 1px solid black;
             height:18px;
             margin: 1px 0 0 -3px;
+            left: -1px;
             padding:0px;
+            position: relative;
+            top: -7px;
             width:18em;
             
             .ie & { position:relative; bottom: 7px; }
